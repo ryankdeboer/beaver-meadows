@@ -1,5 +1,5 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "homes",
   "info": {
     "singularName": "home",
@@ -13,8 +13,13 @@
   "pluginOptions": {},
   "attributes": {
     "heroTxt": {
-      "type": "string",
-      "unique": false
+      "type": "string"
+    },
+    "homeTitle1": {
+      "type": "string"
+    },
+    "homeTitle2": {
+      "type": "string"
     }
   }
 }

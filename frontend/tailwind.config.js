@@ -304,6 +304,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Satoshi',
         'Inter',
         'Oswald',
         'ui-sans-serif',
