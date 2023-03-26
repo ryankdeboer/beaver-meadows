@@ -33,17 +33,15 @@ const events = [
 
 function Events() {
     let location = useLocation();
-    console.log(location);
+    // console.log(location);
   return (
     <div className="">
         {events.map((event) => (
             
-            <div key={event.name} className="py-4 border-b last:border-0">
-                <div className=" border-gray-200">
-                    <h3 className="text-xl font-normal leading-6 text-black sm:text-2xl">{event.name}</h3>
-                    <p className="mt-1 mb-2 max-w-2xl text-gray-900 md:text-gray-400 text-sm">{event.date}</p>
-                    <p className='pb-5 text-sm text-gray-900'>{event.description}</p>
-                </div>
+            <div key={event.name} className="py-6 border-b border-zinc-200 dark:border-zinc-800 last:border-0"> 
+                <h3 className="text-xl font-normal leading-6 text-black dark:text-white sm:text-2xl">{event.name}</h3>
+                <p className="mt-1 mb-2 max-w-2xl text-gray-400 text-sm">{event.date}</p>
+                <p className='text-sm text-gray-900 dark:text-white'>{event.description}</p>
             </div>
         ))}
     </div> 

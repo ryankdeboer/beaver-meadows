@@ -3,63 +3,63 @@ import SubpageContact from "../components/SubpageContact";
 
 function MembershipsPage() {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-50 dark:bg-[#0B0E0B]">
       <main>
           <div className="subpage-hero h-80 md:96 relative">
-              
+          
           </div>
       </main>
-      <div className="-mt-28 md:px-6 py-1 lg:max-w-screen-2xl relative lg:grid grid-rows-1 grid-cols-3 mx-auto">
+      <div className="-mt-28 md:px-6 py-1 lg:max-w-screen-2xl relative lg:grid grid-rows-1 grid-cols-3 mx-auto border-b border-zinc-200 dark:border-zinc-700">
         <section className="m-4 col-span-2 text-center sm:text-left ">
         <h1 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Memberships</h1>
-          <div className="p-8 mb-8 bg-white rounded-sm drop-shadow">
-            <div class="mb-12 flex flex-col">
-              <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
-                <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
-                  <div class="overflow-hidden">
-                    <table class="min-w-full text-left text-sm font-light">
-                      <thead class="border-b font-medium dark:border-neutral-500">
+          <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
+            <div className="mb-12 flex flex-col dark:text-white">
+              <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
+                <div className="inline-block min-w-full py-2 sm:px-6 lg:px-8">
+                  <div className="overflow-hidden">
+                    <table className="min-w-full text-left text-sm font-light">
+                      <thead className="border-b font-medium dark:border-neutral-500">
                         <tr>
-                          <th scope="col" class="px-3 py-4">Memberships</th>
-                          <th scope="col" class="px-3 py-4">Before 4/30/22</th>
-                          <th scope="col" class="px-3 py-4">After 5/1/23</th>
+                          <th scope="col" className="px-3 py-4">Memberships</th>
+                          <th scope="col" className="px-3 py-4">Before 4/30/22</th>
+                          <th scope="col" className="px-3 py-4">After 5/1/23</th>
                         </tr>
                       </thead>
                       <tbody>
-                        <tr class="border-b dark:border-neutral-500">
-                          <td class="whitespace-nowrap px-3 py-4 font-medium">Family (with children between ages 13-20)</td>
-                          <td class="whitespace-nowrap px-3 py-4">$510.00</td>
-                          <td class="whitespace-nowrap px-3 py-4">$535.00</td>
+                        <tr className="border-b dark:border-neutral-500">
+                          <td className="whitespace-nowrap px-3 py-4 font-medium">Family (with children between ages 13-20)</td>
+                          <td className="whitespace-nowrap px-3 py-4">$510.00</td>
+                          <td className="whitespace-nowrap px-3 py-4">$535.00</td>
                         </tr>
-                        <tr class="border-b dark:border-neutral-500">
-                          <td class="whitespace-nowrap px-3 py-4 font-medium">Couples-shared living space</td>
-                          <td class="whitespace-nowrap px-3 py-4">$460.00</td>
-                          <td class="whitespace-nowrap px-3 py-4">$485.00</td>
+                        <tr className="border-b dark:border-neutral-500">
+                          <td className="whitespace-nowrap px-3 py-4 font-medium">Couples-shared living space</td>
+                          <td className="whitespace-nowrap px-3 py-4">$460.00</td>
+                          <td className="whitespace-nowrap px-3 py-4">$485.00</td>
                         </tr>
-                        <tr class="border-b dark:border-neutral-500">
-                          <td class="whitespace-nowrap px-3 py-4 font-medium">Single</td>
-                          <td class="whitespace-nowrap px-3 py-4">$350.00</td>
-                          <td class="whitespace-nowrap px-3 py-4">$375.00</td>
+                        <tr className="border-b dark:border-neutral-500">
+                          <td className="whitespace-nowrap px-3 py-4 font-medium">Single</td>
+                          <td className="whitespace-nowrap px-3 py-4">$350.00</td>
+                          <td className="whitespace-nowrap px-3 py-4">$375.00</td>
                         </tr>
-                        <tr class="border-b dark:border-neutral-500">
-                          <td class="whitespace-nowrap px-3 py-4 font-medium">Student (HS & College)</td>
-                          <td class="whitespace-nowrap px-3 py-4">$160.00</td>
-                          <td class="whitespace-nowrap px-3 py-4">$185.00</td>
+                        <tr className="border-b dark:border-neutral-500">
+                          <td className="whitespace-nowrap px-3 py-4 font-medium">Student (HS & College)</td>
+                          <td className="whitespace-nowrap px-3 py-4">$160.00</td>
+                          <td className="whitespace-nowrap px-3 py-4">$185.00</td>
                         </tr>
-                        <tr class="border-b dark:border-neutral-500">
-                          <td class="whitespace-nowrap px-3 py-4 font-medium">Wednesday League Only</td>
-                          <td class="whitespace-nowrap px-3 py-4">$260.00</td>
-                          <td class="whitespace-nowrap px-3 py-4">$285.00</td>
+                        <tr className="border-b dark:border-neutral-500">
+                          <td className="whitespace-nowrap px-3 py-4 font-medium">Wednesday League Only</td>
+                          <td className="whitespace-nowrap px-3 py-4">$260.00</td>
+                          <td className="whitespace-nowrap px-3 py-4">$285.00</td>
                         </tr>
-                        <tr class="border-b dark:border-neutral-500">
-                          <td class="whitespace-nowrap px-3 py-4 font-medium">Cart Shed Rental (this includes the trail fee)</td>
-                          <td class="whitespace-nowrap px-3 py-4">$175.00</td>
-                          <td class="whitespace-nowrap px-3 py-4">$200.00</td>
+                        <tr className="border-b dark:border-neutral-500">
+                          <td className="whitespace-nowrap px-3 py-4 font-medium">Cart Shed Rental (this includes the trail fee)</td>
+                          <td className="whitespace-nowrap px-3 py-4">$175.00</td>
+                          <td className="whitespace-nowrap px-3 py-4">$200.00</td>
                         </tr>
-                        <tr class="border-b dark:border-neutral-500">
-                          <td class="whitespace-nowrap px-3 py-4 font-medium">Trail Fees* (Trail fees apply if you store your cart off the course premises)</td>
-                          <td class="whitespace-nowrap px-3 py-4">$6/day</td>
-                          <td class="whitespace-nowrap px-3 py-4">$100/year</td>
+                        <tr className="border-b dark:border-neutral-500">
+                          <td className="whitespace-nowrap px-3 py-4 font-medium">Trail Fees* (Trail fees apply if you store your cart off the course premises)</td>
+                          <td className="whitespace-nowrap px-3 py-4">$6/day</td>
+                          <td className="whitespace-nowrap px-3 py-4">$100/year</td>
                         </tr>
                       </tbody>
                     </table>
@@ -67,9 +67,9 @@ function MembershipsPage() {
                 </div>
               </div>
             </div>
-            <div className="text-lg text-center mb-12">HALF PRICE APPLIES TO MEMBERSHIP FEE ONLY</div>
+            <div className="text-lg text-center mb-12 dark:text-white">HALF PRICE APPLIES TO MEMBERSHIP FEE ONLY</div>
 
-            <ul className="text-sm mb-5">
+            <ul className="text-sm mb-5 dark:text-white">
               <li>* All membership rates and fees must be paid before playing on the course or greens fees will apply.</li>
               <li>* Kids 13 years of age and older will need a student or family membership.</li>
               <li>* Couples must be living together and share same address.</li>
@@ -85,7 +85,7 @@ function MembershipsPage() {
               <li>* Please fill out your complete address if you wish to receive future mailings.</li>
             </ul>
               
-            <div className="block text-center mt-5"><a href="./files/2023-Membership-Form.pdf" target="_blank">Download Membership Form</a></div>
+            <div className="block text-center mt-5 dark:text-white"><a href="./files/2023-Membership-Form.pdf" target="_blank">Download Membership Form</a></div>
 
 
 

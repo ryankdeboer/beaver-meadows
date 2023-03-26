@@ -92,22 +92,22 @@ function Tournaments() {
             {tournaments.map((tournament, index) => {
                 if(location.pathname === "/" && index < 4) {
                     return (
-                        <div key={tournament.name} className="pb-4 mb-4 border-b last:mb-0 last:pb-0 last:border-0">
-                            <div className=" border-gray-200">
-                                <h3 className="text-xl font-normal leading-6 text-black sm:text-2xl">{tournament.name}</h3>
-                                <p className="mt-1 mb-2 max-w-2xl text-gray-900 md:text-gray-400 text-sm">{tournament.date}</p>
-                                <p className='pb-5 text-sm text-gray-900'>{tournament.description}</p>
-                            </div>
+                        <div key={tournament.name} className="pb-6 mb-6 border-b border-zinc-200 dark:border-zinc-800 last:mb-0 last:pb-0 last:border-0">
+                           
+                                <h3 className="text-xl font-normal leading-6 text-black dark:text-white sm:text-2xl">{tournament.name}</h3>
+                                <p className="mt-1 mb-2 max-w-2xl text-gray-400 text-sm">{tournament.date}</p>
+                                <p className='text-sm text-gray-900 dark:text-white'>{tournament.description}</p>
+                            
                         </div>
                     )
                 } else if (location.pathname === "/tournaments") {
                     return (
-                        <div key={tournament.name} className="py-4 border-b last:mb-0 last:pb-0 last:border-0">
-                            <div className=" border-gray-200">
-                                <h3 className="text-xl font-normal leading-6 text-black sm:text-2xl">{tournament.name}</h3>
-                                <p className="mt-1 mb-2 max-w-2xl text-gray-900 md:text-gray-400 text-sm">{tournament.date}</p>
-                                <p className='pb-5 text-sm text-gray-900'>{tournament.description}</p>
-                            </div>
+                        <div key={tournament.name} className="py-4 border-b border-zinc-200 dark:border-zinc-800 last:mb-0 last:pb-0 last:border-0">
+                            
+                                <h3 className="text-xl font-normal leading-6 text-black dark:text-white sm:text-2xl">{tournament.name}</h3>
+                                <p className="mt-1 mb-2 max-w-2xl text-gray-400 text-sm">{tournament.date}</p>
+                                <p className='text-sm text-gray-900 dark:text-white'>{tournament.description}</p>
+                            
                         </div>
                     )
                 } else {
