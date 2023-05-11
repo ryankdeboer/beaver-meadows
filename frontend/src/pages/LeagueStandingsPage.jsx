@@ -5,16 +5,18 @@ function LeagueStandingsPage() {
   return (
     <div className="bg-gray-50 dark:bg-[#0B0E0B]">
       <main>
-          <div className="subpage-hero h-80 md:96 relative">
+          <div className="subpage-hero h-96 md:96 relative">
              
           </div>
       </main>
-      <div className="-mt-28 md:px-6 py-1 lg:max-w-screen-2xl relative lg:grid grid-rows-1 grid-cols-3 mx-auto border-b border-zinc-200 dark:border-zinc-700">
+      <div className="-mt-28 md:px-6 py-1 lg:max-w-screen-2xl relative lg:grid grid-rows-1 grid-cols-3 mx-auto">
       <section className="m-4 col-span-2 text-center sm:text-left ">
       <h1 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>League Standings</h1>
           <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
             <h2 className="text-2xl mb-2 pb-2 dark:text-white border-b border-zinc-200 dark:border-zinc-800">Men's Leaugue</h2>
             <p  className='mb-10 dark:text-white'>Check back for point standings as the year progresses</p>
+
+            
             {/* <div class="mb-12 flex flex-col">
               <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
                 <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
@@ -87,6 +89,9 @@ function LeagueStandingsPage() {
                 </div>
               </div>
             </div>
+
+            <h2 className="text-2xl mb-2 pb-2 dark:text-white border-b border-zinc-200 dark:border-zinc-800">Women's Leaugue</h2>
+            <p  className='mb-10 dark:text-white'>Check back for point standings as the year progresses</p>
           </div>
         </section>
         <section className="m-4 col-span-1 row-span-1">

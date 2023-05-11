@@ -5,12 +5,6 @@ import { useLocation } from 'react-router-dom';
 // .slice(0,2)
 const tournaments = [
     {
-        name: 'Sneaker/Hooker Open',
-        date: 'Saturday - 04-29-23 - 10am',
-        description:
-          'Shotgun Start - 3 person - $20.00 per person',
-    },
-    {
         name: 'Ryder Cup',
         date: 'Saturday - 05-13-23 - 9am',
         description:

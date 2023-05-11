@@ -5,22 +5,16 @@ import { useLocation } from 'react-router-dom';
 // .slice(0,2)
 const events = [
     {
-      name: 'Celebration of Life for Brian Card',
-      date: 'Friday - 04-28-23 - 5pm',
-      description:
-        'Come out to Beaver and help celebrate and remember Brian Card',
-    },
-    {
-      name: 'Johnson Graduation',
-      date: 'Sunday - 05-07-23',
-      description:
-        '',
-    },
-    {
       name: 'Huntinger Graduation',
       date: 'Sunday - 05-21-23',
       description:
         '',
+    },
+    {
+      name: 'Beaver Meadows Breakfast',
+      date: 'Sunday - 06-04-23',
+      description:
+        'More details to come in the next couple of weeks',
     },
     {
         name: '4 Person Best Shot/2 cup - Beaver Fundraiser',

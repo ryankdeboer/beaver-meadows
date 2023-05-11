@@ -15,7 +15,7 @@ export default function HomePage() {
                         <div className="mx-auto">
                             <div className="sm:mb-8 sm:flex sm:justify-center">
                                 <div className="flex text-center">
-                                    <h1 className="text-2xl font-bold tracking-normal text-white sm:text-6xl uppercase drop-shadow-lg"></h1>
+                                    {/* <h1 className="text-2xl font-bold tracking-normal text-white sm:text-6xl uppercase drop-shadow-lg"></h1> */}
                                 </div>
                             </div>
                         </div>
@@ -25,6 +25,17 @@ export default function HomePage() {
             <section className="md:px-6 py-1 -mt-20 sm:-mt-80 text-center lg:grid grid-cols-3 grid-rows-1 md:text-left lg:max-w-screen-2xl mx-auto">
                 <div className="relative m-4 col-span-2 row-span-1">
                     <div className="">
+                    {/* <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Announcments</h3>
+                        <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
+                                <h3 className="text-xl font-normal leading-6 text-black dark:text-white sm:text-2xl">Course Cleanup</h3>
+                                <p className="mt-1 mb-2 max-w-2xl text-gray-400 text-sm">April 15th, 10:00 AM</p>
+                                <p className='text-sm text-gray-900 dark:text-white'>All volunteers are welcome and greatly appreciated. Chili will be provided for lunch.</p>
+
+                        </div> */}
+
+
+
+
                         <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Contact</h3>
                         <div className="p-8 mb-8 sm:grid sm:grid-cols-2 bg-white dark:bg-zinc-900 rounded-sm drop-shadow ">
                             <div className="mb-4 pb-4 sm:mb-0 sm:pb-0 border-b border-zinc-200 dark:border-zinc-800 sm:border-none">
@@ -61,67 +72,14 @@ export default function HomePage() {
                                          
                             </div>
                         </div>
-                        <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Upcoming Events</h3>
+
+                        <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>League Standings</h3>
                         <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
-                            <Events />
+                            <h2 className="text-2xl mb-2 pb-2 dark:text-white border-b border-zinc-200 dark:border-zinc-800">Men's Leaugue</h2>
+                            <p  className='mb-10 dark:text-white'>Check back for point standings as the year progresses</p>
+                            <h2 className="text-2xl mb-2 pb-2 dark:text-white border-b border-zinc-200 dark:border-zinc-800">Women's Leaugue</h2>
+                            <p  className='mb-10 dark:text-white'>Check back for point standings as the year progresses</p>
                         </div>
-                            
-                        
-
-
-                        {/* <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>League</h3>
-                            <div className="p-8 mb-8 bg-white rounded-sm drop-shadow ">
-                                <div className="">
-                                    <h4 className="mb-2 text-base font-medium leading-6 text-black ">Men's League</h4>
-                                    <div class="mb-12 flex flex-col">
-                                        <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
-                                        <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
-                                            <div class="overflow-hidden">
-                                            <table class="min-w-full text-left text-sm font-light">
-                                                <thead class="border-b font-medium dark:border-neutral-500">
-                                                <tr>
-                                                    <th scope="col" class="px-6 py-4">Pos</th>
-                                                    <th scope="col" class="px-6 py-4">Team Name</th>
-                                                    <th scope="col" class="px-6 py-4">Points</th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-                                                <tr class="border-b dark:border-neutral-500">
-                                                    <td class="whitespace-nowrap px-6 py-4 font-medium">1</td>
-                                                    <td class="whitespace-nowrap px-6 py-4">Maddogs</td>
-                                                    <td class="whitespace-nowrap px-6 py-4">250</td>
-                                                </tr>
-                                                <tr class="border-b dark:border-neutral-500">
-                                                    <td class="whitespace-nowrap px-6 py-4 font-medium">2</td>
-                                                    <td class="whitespace-nowrap px-6 py-4">Jacob</td>
-                                                    <td class="whitespace-nowrap px-6 py-4">250</td>
-                                                </tr>
-                                                <tr class="border-b dark:border-neutral-500">
-                                                    <td class="whitespace-nowrap px-6 py-4 font-medium">3</td>
-                                                    <td class="whitespace-nowrap px-6 py-4">Larry</td>
-                                                    <td class="whitespace-nowrap px-6 py-4">250</td>
-                                                </tr>
-                                                <tr class="border-b dark:border-neutral-500">
-                                                    <td class="whitespace-nowrap px-6 py-4 font-medium">4</td>
-                                                    <td class="whitespace-nowrap px-6 py-4">Larry</td>
-                                                    <td class="whitespace-nowrap px-6 py-4">250</td>
-                                                </tr>
-                                                <tr class="border-b dark:border-neutral-500">
-                                                    <td class="whitespace-nowrap px-6 py-4 font-medium">5</td>
-                                                    <td class="whitespace-nowrap px-6 py-4">Larry</td>
-                                                    <td class="whitespace-nowrap px-6 py-4">250</td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div> */}
-                        
-                        
                     </div>
                 </div>
                 <div className="col-span-1 relative m-4">
@@ -129,6 +87,10 @@ export default function HomePage() {
                     <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
                         <Tournaments />
                     </div>
+                    <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Upcoming Events</h3>
+                        <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
+                            <Events />
+                        </div>
                 </div>
             </section>
         </div>

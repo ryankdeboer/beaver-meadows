@@ -5,11 +5,11 @@ function DailyRatesPage() {
   return (
     <div className="bg-gray-50 dark:bg-[#0B0E0B]">
       <main>
-        <div className="subpage-hero h-80 md:96 relative">
+        <div className="subpage-hero h-96 md:96 relative">
         
         </div>
       </main>
-      <div className="-mt-28 md:px-6 py-1 lg:max-w-screen-2xl relative lg:grid grid-rows-1 grid-cols-3 mx-auto border-b border-zinc-200 dark:border-zinc-700">
+      <div className="-mt-28 md:px-6 py-1 lg:max-w-screen-2xl relative lg:grid grid-rows-1 grid-cols-3 mx-auto ">
         <section className="m-4 col-span-2 text-center sm:text-left ">
           <h1 className="uppercase text-white text-2xl tracking-wide font-normal pb-2">
             Daily Rates
@@ -33,12 +33,12 @@ function DailyRatesPage() {
                       <tbody>
                         <tr className="border-b dark:border-neutral-500">
                           <td className="whitespace-nowrap px-3 py-4 font-medium">9 Hole Costs</td>
-                          <td className="whitespace-nowrap px-3 py-4">$10</td>
+                          <td className="whitespace-nowrap px-3 py-4">$15</td>
                           <td className="whitespace-nowrap px-3 py-4">$15</td>
                         </tr>
                         <tr className="border-b dark:border-neutral-500">
                           <td className="whitespace-nowrap px-3 py-4 font-medium">18 Hole Cost</td>
-                          <td className="whitespace-nowrap px-3 py-4">$15</td>
+                          <td className="whitespace-nowrap px-3 py-4">$20</td>
                           <td className="whitespace-nowrap px-3 py-4">$20</td>
                         </tr>
                         <tr className="border-b dark:border-neutral-500">

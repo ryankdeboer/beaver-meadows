@@ -4,7 +4,7 @@ function ContactPage() {
   return (
     <div className="bg-gray-50">
       <main>
-          <div className="subpage-hero h-80 md:96 relative">
+          <div className="subpage-hero h-96 md:96 relative">
               
           </div>
       </main>
