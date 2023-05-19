@@ -28,6 +28,10 @@ const navRates = [
   { name: 'Memberships', href: '/memberships', icon: ChatBubbleLeftIcon },
   { name: 'Clubhouse Rental', href: '/clubhouse-rental', icon: BuildingStorefrontIcon },
 ]
+const navLeagueStandings = [
+  { name: 'Men\'s League', href: '/mens-league' },
+  { name: 'Women\'s League', href: '/womens-league' },
+]
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -74,9 +78,42 @@ export default function Navbar() {
             <Link to="/events" className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-100 hover:text-green-900 dark:hover:text-gray-400">
               Events
             </Link>
-            <Link to="/league-standings" className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-100 hover:text-green-900 dark:hover:text-gray-400">
+            {/* <Link to="/league-standings" className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-100 hover:text-green-900 dark:hover:text-gray-400">
               League Standings
-            </Link>
+            </Link> */}
+            <Popover className="relative">
+              <Popover.Button className="flex items-center gap-x-1 uppercase text-sm font-semibold leading-6 text-gray-900 dark:text-gray-100 hover:text-green-900 dark:hover:text-gray-400">
+                League Standings
+                <ChevronDownIcon className="h-5 w-5 flex-none text-gray-900 dark:text-gray-100" aria-hidden="true" />
+              </Popover.Button>
+              <Transition
+                as={Fragment}
+                enter="transition ease-out duration-200"
+                enterFrom="opacity-0 translate-y-1"
+                enterTo="opacity-100 translate-y-0"
+                leave="transition ease-in duration-150"
+                leaveFrom="opacity-100 translate-y-0"
+                leaveTo="opacity-0 translate-y-1"
+              >
+                <Popover.Panel className="absolute top-full right-0 z-10 mt-3 w-60 min-w-sm overflow-hidden rounded-sm bg-white dark:bg-zinc-900  shadow-lg ring-1 ring-gray-900/5">
+                  <div className="p-4">
+                    {navLeagueStandings.map((standings) => (
+                      <div
+                        key={standings.name}
+                        className="group relative flex items-center gap-x-6 rounded-lg p-2 text-sm leading-6 hover:bg-gray-50 dark:hover:bg-zinc-800"
+                      >
+                        <div className="flex-auto">
+                          <a href={standings.href} className="block font-semibold text-gray-900 dark:text-gray-100 hover:text-green-900">
+                            {standings.name}
+                            <span className="absolute inset-0" />
+                          </a>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </Popover.Panel>
+              </Transition>
+            </Popover>
             <Popover className="relative">
               <Popover.Button className="flex items-center gap-x-1 uppercase text-sm font-semibold leading-6 text-gray-900 dark:text-gray-100 hover:text-green-900 dark:hover:text-gray-400">
                 Rates
@@ -188,9 +225,32 @@ export default function Navbar() {
                     Events
                   </Link>
                   
-                  <Link to="/league-standings" onClick={() => setMobileMenuOpen(false)} className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 dark:text-gray-100 hover:bg-gray-50 dark:hover:bg-zinc-700 hover:text-green-900 dark:hover:text-white" >
-                      League Standings
-                  </Link>
+                  <Disclosure as="div" className="-mx-3">
+                    {({ open }) => (
+                      <>
+                        <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold uppercase leading-7 hover:bg-gray-50 dark:hover:bg-zinc-700 dark:text-gray-100 dark:hover:text-white">
+                          League Standings
+                          <ChevronDownIcon
+                            className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
+                            aria-hidden="true"
+                          />
+                        </Disclosure.Button>
+                        <Disclosure.Panel className="mt-2 space-y-2">
+                          {[...navLeagueStandings].map((standings) => (
+                            <Disclosure.Button
+                              key={standings.name}
+                              as="a"
+                              href={standings.href}
+                              className="flex gap-x-3 items-center rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 dark:text-gray-100 hover:bg-gray-50 dark:hover:bg-zinc-700 dark:hover:text-white"
+                            >
+                              
+                              {standings.name}
+                            </Disclosure.Button>
+                          ))}
+                        </Disclosure.Panel>
+                      </>
+                    )}
+                  </Disclosure>
                   
                   <Disclosure as="div" className="-mx-3">
                     {({ open }) => (

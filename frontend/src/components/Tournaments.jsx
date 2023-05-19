@@ -5,12 +5,6 @@ import { useLocation } from 'react-router-dom';
 // .slice(0,2)
 const tournaments = [
     {
-        name: 'Ryder Cup',
-        date: 'Saturday - 05-13-23 - 9am',
-        description:
-          '27 Holes -2 person - $50.00 per team - 100% payout',
-    },
-    {
         name: 'Memorial Day Tournament',
         date: 'Monday - 05-29-23 - 10am',
         description:

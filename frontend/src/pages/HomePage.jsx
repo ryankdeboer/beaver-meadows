@@ -2,6 +2,7 @@ import React from 'react'
 import Features from "../components/Features";
 import Tournaments from "../components/Tournaments";
 import Events from "../components/Events";
+import MensLeague from "../components/MensLeague";
 
 //bg-[#010f01]
 export default function HomePage() {
@@ -73,23 +74,22 @@ export default function HomePage() {
                             </div>
                         </div>
 
-                        <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>League Standings</h3>
+                        <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Tournaments</h3>
                         <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
-                            <h2 className="text-2xl mb-2 pb-2 dark:text-white border-b border-zinc-200 dark:border-zinc-800">Men's Leaugue</h2>
-                            <p  className='mb-10 dark:text-white'>Check back for point standings as the year progresses</p>
-                            <h2 className="text-2xl mb-2 pb-2 dark:text-white border-b border-zinc-200 dark:border-zinc-800">Women's Leaugue</h2>
-                            <p  className='mb-10 dark:text-white'>Check back for point standings as the year progresses</p>
+                            <Tournaments />
+                        </div>
+
+                        <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Upcoming Events</h3>
+                        <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
+                            <Events />
                         </div>
                     </div>
                 </div>
                 <div className="col-span-1 relative m-4">
-                    <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Tournaments</h3>
-                    <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
-                        <Tournaments />
-                    </div>
-                    <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Upcoming Events</h3>
+                    
+                    <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Men's League</h3>
                         <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
-                            <Events />
+                            <MensLeague />
                         </div>
                 </div>
             </section>

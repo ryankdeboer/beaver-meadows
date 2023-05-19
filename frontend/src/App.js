@@ -11,6 +11,8 @@ import LeagueStandingsPage from "./pages/LeagueStandingsPage";
 import DailyRatesPage from "./pages/DailyRatesPage";
 import MembershipsPage from "./pages/MembershipsPage";
 import ClubhouseRentalPage from "./pages/ClubhouseRentalPage";
+import MensLeaguePage from "./pages/MensLeaguePage"
+import WomensLeaguePage from "./pages/WomensLeaguePage"
 
 import Hole1Page from "./pages/holes/Hole1Page";
 import Hole2Page from "./pages/holes/Hole2Page";
@@ -78,6 +80,12 @@ localStorage.removeItem('theme')
             }/>
             <Route path="/clubhouse-rental" element={
               <ClubhouseRentalPage/>
+            }/>
+            <Route path="/mens-league" element={
+              <MensLeaguePage/>
+            }/>
+            <Route path="/womens-league" element={
+              <WomensLeaguePage/>
             }/>
             <Route path="/hole-1" element={
               <Hole1Page/>
