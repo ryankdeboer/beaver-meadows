@@ -7,72 +7,72 @@ const standings = [
     {
         position: '1',
         name: 'SSBE',
-        points: '30.5',
+        points: '84',
     },
     {
         position: '2',
-        name: 'River Rats',
-        points: '29',
+        name: 'Maddogs',
+        points: '84',
     },
     {
         position: '3',
-        name: 'Sneed Insurance',
-        points: '28.5',
+        name: 'River Rats',
+        points: '83',
     },
     {
         position: '4',
-        name: 'Maddogs',
-        points: '27.5',
+        name: 'Beer Muscles',
+        points: '77.5',
     },
     {
         position: '5',
-        name: 'P-Burg Vet',
-        points: '26',
+        name: 'Wyffels',
+        points: '74.5',
     },
     {
         position: '6',
-        name: 'Wyffels',
-        points: '25.5',
+        name: 'Busch League',
+        points: '69.5',
     },
     {
         position: '7',
-        name: 'Beer Muscles',
-        points: '24',
+        name: 'Catfish',
+        points: '67.5',
     },
     {
         position: '8',
-        name: 'City Sanitary Service',
-        points: '21',
+        name: 'Sneed Insurance',
+        points: '62.5',
     },
     {
         position: '9',
-        name: 'Falcons',
-        points: '19.5',
+        name: 'City Sanitary Service',
+        points: '62',
     },
     {
         position: '10',
-        name: 'Busch League',
-        points: '19',
+        name: 'P-Burg Vet',
+        points: '61.5',
     },
     {
         position: '11',
-        name: 'Catfish',
-        points: '17.5',
+        name: 'Falcons',
+        points: '61.5',
     },
     {
         position: '12',
-        name: 'JL Construction',
-        points: '16.5',
+        name: 'Thirteen Bricks',
+        points: '56.5',
     },
     {
         position: '13',
         name: 'Stub\'s Stallions',
-        points: '16',
+        points: '48.5',
     },
     {
         position: '14',
-        name: 'Thirteen Bricks',
-        points: '14.5',
+        name: 'JL Construction',
+        points: '47.5',
     },
   ]
 
@@ -81,7 +81,7 @@ function MensLeague() {
   return (
     <div className="mb-12 overflow-hidden dark:text-white">
         <h2 className="uppercase dark:text-white text-black text-xl tracking-wide font-normal pb-2">
-            Week 1 Standings
+            Week 3 Standings
         </h2>
         <table className="min-w-full table-fixed text-left text-sm font-light">
             <thead className="border-b font-medium dark:border-neutral-500">

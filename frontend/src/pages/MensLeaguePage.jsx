@@ -26,7 +26,7 @@ function MensLeaguePage() {
         </section>
         <section className="m-4 col-span-1 row-span-1">
           <div>
-            <h3 className='uppercase text-center sm:text-left text-gray-900 dark:text-white lg:text-white text-2xl tracking-wide font-normal pb-2'>Men's Teams</h3>
+            <h3 className='uppercase text-center sm:text-left text-gray-900 dark:text-white lg:text-white text-2xl tracking-wide font-normal pb-2'>Teams</h3>
             <div className="p-8 mb-4 text-center sm:text-left bg-white dark:bg-zinc-900 rounded-sm drop-shadow dark:text-white">
             <div className="mb-12 overflow-hidden">
               <table className="min-w-full table-fixed text-sm font-light">
@@ -136,7 +136,7 @@ function MensLeaguePage() {
                             <td className="whitespace-nowrap px-3 py-4"></td>
                             <td className="whitespace-nowrap px-3 py-4">9 v 12</td>
                           </tr>
-                          <tr className="border-b dark:border-neutral-500 bg-zinc-100 dark:bg-zinc-800">
+                          <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Week 3</td>
                             <td className="whitespace-nowrap px-3 py-4">6 v 11</td>
                             <td className="whitespace-nowrap px-3 py-4">1 v 10</td>
@@ -160,7 +160,7 @@ function MensLeaguePage() {
                             <td className="whitespace-nowrap px-3 py-4"></td>
                             <td className="whitespace-nowrap px-3 py-4">6 v 9</td>
                           </tr>
-                          <tr className="border-b dark:border-neutral-500">
+                          <tr className="border-b dark:border-neutral-500 bg-zinc-100 dark:bg-zinc-800">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Week 5</td>
                             <td className="whitespace-nowrap px-3 py-4">7 v 12</td>
                             <td className="whitespace-nowrap px-3 py-4">10 v 14</td>

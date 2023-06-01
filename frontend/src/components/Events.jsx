@@ -5,12 +5,6 @@ import { useLocation } from 'react-router-dom';
 // .slice(0,2)
 const events = [
     {
-      name: 'Beaver Meadows Breakfast',
-      date: 'Sunday - 06-04-23',
-      description:
-        'More details to come in the next couple of weeks',
-    },
-    {
         name: '4 Person Best Shot/2 cup - Beaver Fundraiser',
         date: 'Saturday - 09-16-23 - 11am',
         description:
