@@ -4,7 +4,13 @@ import { useLocation } from 'react-router-dom';
 
 // .slice(0,2)
 const events = [
-    {
+  {
+    name: 'Poker Run',
+    date: 'Saturday - 08-19-23',
+    description:
+      '',
+  },  
+  {
         name: '4 Person Best Shot/2 cup - Beaver Fundraiser',
         date: 'Saturday - 09-16-23 - 11am',
         description:

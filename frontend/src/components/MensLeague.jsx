@@ -6,73 +6,73 @@ import { useLocation } from 'react-router-dom';
 const standings = [
     {
         position: '1',
-        name: 'SSBE',
-        points: '84',
+        name: 'Maddogs',
+        points: '141.5',
     },
     {
         position: '2',
-        name: 'Maddogs',
-        points: '84',
+        name: 'River Rats',
+        points: '135.5',
     },
     {
         position: '3',
-        name: 'River Rats',
-        points: '83',
+        name: 'SSBE',
+        points: '134.5',
     },
     {
         position: '4',
         name: 'Beer Muscles',
-        points: '77.5',
+        points: '123',
     },
     {
         position: '5',
-        name: 'Wyffels',
-        points: '74.5',
+        name: 'Falcons',
+        points: '114',
     },
     {
         position: '6',
         name: 'Busch League',
-        points: '69.5',
+        points: '113',
     },
     {
         position: '7',
-        name: 'Catfish',
-        points: '67.5',
+        name: 'Wyffels',
+        points: '112.5',
     },
     {
         position: '8',
-        name: 'Sneed Insurance',
-        points: '62.5',
+        name: 'Catfish',
+        points: '109',
     },
     {
         position: '9',
-        name: 'City Sanitary Service',
-        points: '62',
+        name: 'P-Burg Vet',
+        points: '107',
     },
     {
         position: '10',
-        name: 'P-Burg Vet',
-        points: '61.5',
+        name: 'Sneed Insurance',
+        points: '104',
     },
     {
         position: '11',
-        name: 'Falcons',
-        points: '61.5',
+        name: 'City Sanitary Service',
+        points: '98.5',
     },
     {
         position: '12',
-        name: 'Thirteen Bricks',
-        points: '56.5',
+        name: 'Stub\'s Stallions',
+        points: '95.5',
     },
     {
         position: '13',
-        name: 'Stub\'s Stallions',
-        points: '48.5',
+        name: 'Thirteen Bricks',
+        points: '94',
     },
     {
         position: '14',
         name: 'JL Construction',
-        points: '47.5',
+        points: '88',
     },
   ]
 
@@ -81,7 +81,7 @@ function MensLeague() {
   return (
     <div className="mb-12 overflow-hidden dark:text-white">
         <h2 className="uppercase dark:text-white text-black text-xl tracking-wide font-normal pb-2">
-            Week 3 Standings
+            Week 5 Standings
         </h2>
         <table className="min-w-full table-fixed text-left text-sm font-light">
             <thead className="border-b font-medium dark:border-neutral-500">

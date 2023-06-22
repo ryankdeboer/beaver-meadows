@@ -5,18 +5,6 @@ import { useLocation } from 'react-router-dom';
 // .slice(0,2)
 const tournaments = [
     {
-        name: '3 Course 4 Person Best Shot',
-        date: 'Saturday - 06-03-23 - 8:30am',
-        description:
-          '$250 per team (lunch included) - Contact Chad Campbell for entry. Ph: 319-415-3951 Email: campbellchad@mchsi.com',
-    },
-    {
-        name: 'Men’s Mid Iowa Over 50',
-        date: 'Monday - 06-05-23 - 8am',
-        description:
-          `2 Person Best Shot - \n Mid Iowa Members Only $25 per person`,
-    },
-    {
         name: 'July 4th Tournament',
         date: 'Tuesday - 07-04-23 - 10am',
         description:

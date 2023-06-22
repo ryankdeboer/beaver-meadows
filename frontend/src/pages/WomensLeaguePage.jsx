@@ -62,7 +62,7 @@ function WomensLeaguePage() {
                     <td className="whitespace-nowrap px-3 py-2">The Course</td>
                   </tr>
                   <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-3 py-2">Sara & Loren</td>
+                    <td className="whitespace-nowrap px-3 py-2">Talk Birdie Too Me</td>
                   </tr>
                   <tr className="border-b dark:border-neutral-500">
                     <td className="whitespace-nowrap px-3 py-2">Garden Girls</td>
@@ -144,7 +144,7 @@ function WomensLeaguePage() {
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 7</td>
-                            <td className="whitespace-nowrap px-3 py-4">Sara & Loren</td>
+                            <td className="whitespace-nowrap px-3 py-4">Talk Birdie Too Me</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
                             <td className="whitespace-nowrap px-3 py-4">Garden Girls</td>
                           </tr>
@@ -192,7 +192,7 @@ function WomensLeaguePage() {
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 3</td>
-                            <td className="whitespace-nowrap px-3 py-4">Sara & Loren</td>
+                            <td className="whitespace-nowrap px-3 py-4">Talk Birdie Too Me</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
                             <td className="whitespace-nowrap px-3 py-4">Just Swinging</td>
                           </tr>
@@ -239,7 +239,7 @@ function WomensLeaguePage() {
                       <table className="min-w-full table-fixed text-left text-sm font-light">
                         <thead className="border-b font-medium dark:border-neutral-500 text-center">
                           <tr>
-                            <th scope="col" colspan="4" className="px-3 py-4 text-xl">Week 3</th>
+                            <th scope="col" colspan="4" className="px-3 py-4 text-xl bg-zinc-100 dark:bg-zinc-800">Week 3</th>
                           </tr>
                         </thead>
                         <tbody className="text-center">
@@ -286,7 +286,7 @@ function WomensLeaguePage() {
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 7</td>
                             <td className="whitespace-nowrap px-3 py-4">2 fer 1</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Sara & Loren</td>
+                            <td className="whitespace-nowrap px-3 py-4">Talk Birdie Too Me</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 8</td>
@@ -338,7 +338,7 @@ function WomensLeaguePage() {
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 5</td>
-                            <td className="whitespace-nowrap px-3 py-4">Sara & Loren</td>
+                            <td className="whitespace-nowrap px-3 py-4">Talk Birdie Too Me</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
                             <td className="whitespace-nowrap px-3 py-4">Classy and Sassy</td>
                           </tr>
@@ -426,7 +426,7 @@ function WomensLeaguePage() {
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 9</td>
                             <td className="whitespace-nowrap px-3 py-4">2 Girls 1 Putt</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Sara & Loren</td>
+                            <td className="whitespace-nowrap px-3 py-4">Talk Birdie Too Me</td>
                           </tr>
                         </tbody>
                       </table>
@@ -472,7 +472,7 @@ function WomensLeaguePage() {
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 5</td>
-                            <td className="whitespace-nowrap px-3 py-4">Sara & Loren</td>
+                            <td className="whitespace-nowrap px-3 py-4">Talk Birdie Too Me</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
                             <td className="whitespace-nowrap px-3 py-4">Know Clue</td>
                           </tr>
@@ -590,7 +590,7 @@ function WomensLeaguePage() {
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 2</td>
                             <td className="whitespace-nowrap px-3 py-4">Guess what John Did?</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Sara & Loren</td>
+                            <td className="whitespace-nowrap px-3 py-4">Talk Birdie Too Me</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 3</td>
@@ -662,7 +662,7 @@ function WomensLeaguePage() {
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 4</td>
-                            <td className="whitespace-nowrap px-3 py-4">Sara & Loren</td>
+                            <td className="whitespace-nowrap px-3 py-4">Talk Birdie Too Me</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
                             <td className="whitespace-nowrap px-3 py-4">Twisted Squirrels</td>
                           </tr>
