@@ -3,22 +3,22 @@ import { Link } from 'react-router-dom'
 
 const navigations = [
   {
-    id:1,
+    id: 1,
     name: "About",
     href: "/about"
   },
   {
-    id:2,
+    id: 2,
     name: "Tournaments",
     href: "/tournaments"
   },
   {
-    id:3,
+    id: 3,
     name: "Events",
     href: "/events"
   },
   {
-    id:4,
+    id: 4,
     name: "League Standings",
     href: "/league-standings"
   },
@@ -58,8 +58,8 @@ export default function Footer() {
               </h2>
               <ul className="mt-3 space-y-2">
                 {navigations.map((navigation) => (
-                <li>
-                  <Link key={navigation.id} to={navigation.href} className={classNames(
+                <li key={navigation.id}>
+                  <Link  to={navigation.href} className={classNames(
                      'text-gray-900 dark:text-white hover:text-green-900',
                       'py-2 text-sm font-medium'
                     )} >
@@ -78,8 +78,8 @@ export default function Footer() {
               </h2>
               <ul className="mt-3 space-y-2">
                 {rates.map((rate) => (
-                <li>
-                  <Link key={rate.id} to={rate.href} className={classNames(
+                <li key={rate.id}>
+                  <Link to={rate.href} className={classNames(
                      'text-gray-900 dark:text-white hover:text-green-900',
                       'py-2 text-sm font-medium'
                     )} >

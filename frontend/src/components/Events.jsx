@@ -1,8 +1,5 @@
 import React from 'react'
-import { useLocation } from 'react-router-dom';
 
-
-// .slice(0,2)
 const events = [
   {
     name: 'Poker Run',
@@ -20,8 +17,6 @@ const events = [
 
 
 function Events() {
-    let location = useLocation();
-    // console.log(location);
   return (
     <div className="">
         {events.map((event) => (

@@ -1,5 +1,4 @@
 import React from 'react'
-import { useLocation } from 'react-router-dom';
 
 
 // .slice(0,2)
@@ -99,7 +98,7 @@ function WomensLeague() {
             </thead>
             <tbody>
                 {standings.map((standing) => (
-                    <tr key={standings.position} className="border-b dark:border-neutral-500">
+                    <tr key={standing.position} className="border-b dark:border-neutral-500">
                         <td className="whitespace-nowrap px-3 py-4">{standing.position}</td>
                         <td className="whitespace-nowrap px-3 py-4 font-medium">{standing.name}</td>
                         <td className="whitespace-nowrap px-3 py-4">{standing.points}</td>

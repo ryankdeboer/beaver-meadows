@@ -24,7 +24,6 @@ import Hole7Page from "./pages/holes/Hole7Page";
 import Hole8Page from "./pages/holes/Hole8Page";
 import Hole9Page from "./pages/holes/Hole9Page";
 
-
 import NotFoundPage from "./pages/NotFoundPage";
 import Footer from "./components/Footer";
 
