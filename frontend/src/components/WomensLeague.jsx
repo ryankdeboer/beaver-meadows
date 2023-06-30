@@ -6,77 +6,77 @@ const standings = [
     {
         position: '1',
         name: 'Guess What John Did?',
-        points: '24',
+        points: '30.5',
     },
     {
         position: '2',
-        name: '2 Girls 1 Putt',
-        points: '20',
+        name: 'Just Swinging',
+        points: '24',
     },
     {
         position: '3',
         name: 'Garden Girls',
-        points: '16.5',
+        points: '23.5',
     },
     {
         position: '4',
-        name: 'Just Swinging',
-        points: '16.5',
+        name: 'Talk birdie too me',
+        points: '21.5',
     },
     {
         position: '5',
         name: 'Tee Time',
-        points: '15',
+        points: '20',
     },
     {
         position: '6',
-        name: 'Divot and Goliath',
-        points: '14.5',
+        name: '2 girls 1 putt',
+        points: '20',
     },
     {
         position: '7',
-        name: 'Classy and Sassy',
-        points: '13.5',
+        name: 'Perky Putters',
+        points: '18.5',
     },
     {
         position: '8',
         name: 'Know Clue',
-        points: '12.5',
+        points: '18.5',
     },
     {
         position: '9',
-        name: 'Talk Birdie Too Me',
-        points: '12',
+        name: 'Classy and Sassy',
+        points: '17.5',
     },
     {
         position: '10',
-        name: 'Life Savers',
-        points: '11.5',
+        name: 'Divot and Goliath',
+        points: '14.5',
     },
     {
         position: '11',
-        name: 'Perky Putters',
-        points: '11',
+        name: 'Life Savers',
+        points: '14',
     },
     {
         position: '12',
         name: 'Power Putt Girls',
-        points: '9.5',
+        points: '13',
     },
     {
         position: '13',
-        name: '2 fer 1',
-        points: '7',
+        name: 'Reckless Drivers',
+        points: '11',
     },
     {
         position: '14',
-        name: 'Reckless Drivers',
-        points: '6',
+        name: '2 fer 1',
+        points: '7.5',
     },
     {
         position: '15',
         name: 'Twisted Squirrels',
-        points: '2',
+        points: '4.5',
     },
   ]
 
@@ -85,7 +85,7 @@ function WomensLeague() {
   return (
     <div className="mb-12 overflow-hidden dark:text-white">
         <h2 className="uppercase dark:text-white text-black text-xl tracking-wide font-normal pb-2">
-            Week 2 Standings
+            Week 3 Standings
         </h2>
         <table className="min-w-full table-fixed text-left text-sm font-light">
             <thead className="border-b font-medium dark:border-neutral-500">

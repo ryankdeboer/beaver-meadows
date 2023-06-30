@@ -6,72 +6,72 @@ const standings = [
     {
         position: '1',
         name: 'River Rats',
-        points: '192.5',
+        points: '220.5',
     },
     {
         position: '2',
         name: 'Maddogs',
-        points: '187.5',
+        points: '208.5',
     },
     {
         position: '3',
         name: 'SSBE',
-        points: '182',
+        points: '199',
     },
     {
         position: '4',
         name: 'Beer Muscles',
-        points: '180.5',
+        points: '198',
     },
     {
         position: '5',
-        name: 'Sneed Insurance',
-        points: '154',
+        name: 'Catfish',
+        points: '181',
     },
     {
         position: '6',
-        name: 'City Sanitary Service',
-        points: '152.5',
+        name: 'Sneed Insurance',
+        points: '180',
     },
     {
         position: '7',
-        name: 'Catfish',
-        points: '152',
+        name: 'P-Burg Vet',
+        points: '174',
     },
     {
         position: '8',
-        name: 'P-Burg Vet',
-        points: '150',
+        name: 'Busch League',
+        points: '174',
     },
     {
         position: '9',
-        name: 'Busch League',
-        points: '147',
+        name: 'City Sanitary Service',
+        points: '172.5',
     },
     {
         position: '10',
-        name: 'Wyffels',
-        points: '146.5',
+        name: 'Stub\'s Stallions',
+        points: '168',
     },
     {
         position: '11',
-        name: 'Falcons',
-        points: '143',
+        name: 'Wyffels',
+        points: '162.5',
     },
     {
         position: '12',
-        name: 'Stub\'s Stallions',
-        points: '140.5',
+        name: 'Falcons',
+        points: '157',
     },
     {
         position: '13',
         name: 'Thirteen Bricks',
-        points: '136.5',
+        points: '155.5',
     },
     {
         position: '14',
         name: 'JL Construction',
-        points: '128',
+        points: '146',
     },
   ]
 
@@ -80,7 +80,7 @@ function MensLeague() {
   return (
     <div className="mb-12 overflow-hidden dark:text-white">
         <h2 className="uppercase dark:text-white text-black text-xl tracking-wide font-normal pb-2">
-            Week 7 Standings
+            Week 8 Standings
         </h2>
         <table className="min-w-full table-fixed text-left text-sm font-light">
             <thead className="border-b font-medium dark:border-neutral-500">
