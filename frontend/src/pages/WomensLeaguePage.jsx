@@ -439,7 +439,7 @@ function WomensLeaguePage() {
                       <table className="min-w-full table-fixed text-left text-sm font-light">
                         <thead className="border-b font-medium dark:border-neutral-500 text-center">
                           <tr>
-                            <th scope="col" colspan="4" className="px-3 py-4 text-xl bg-zinc-100 dark:bg-zinc-800">Week 6</th>
+                            <th scope="col" colspan="4" className="px-3 py-4 text-xl">Week 6</th>
                           </tr>
                         </thead>
                         <tbody className="text-center">
@@ -507,7 +507,7 @@ function WomensLeaguePage() {
                       <table className="min-w-full table-fixed text-left text-sm font-light">
                         <thead className="border-b font-medium dark:border-neutral-500 text-center">
                           <tr>
-                            <th scope="col" colspan="4" className="px-3 py-4 text-xl">Week 7</th>
+                            <th scope="col" colspan="4" className="px-3 py-4 text-xl bg-zinc-100 dark:bg-zinc-800">Week 7</th>
                           </tr>
                         </thead>
                         <tbody className="text-center">

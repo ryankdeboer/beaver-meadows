@@ -5,12 +5,6 @@ import { useLocation } from 'react-router-dom';
 // .slice(0,2)
 const tournaments = [
     {
-        name: 'July 4th Tournament',
-        date: 'Tuesday - 07-04-23 - 10am',
-        description:
-          '$10.00 per person',
-    },
-    {
         name: '2 Couple Best Shot',
         date: 'Saturday - 07-15-23 - 10am',
         description:
