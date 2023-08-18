@@ -256,7 +256,7 @@ function MensLeaguePage() {
                             <td className="whitespace-nowrap px-3 py-4"></td>
                             <td className="whitespace-nowrap px-3 py-4">6 v 13</td>
                           </tr>
-                          <tr className="border-b dark:border-neutral-500 bg-zinc-100 dark:bg-zinc-800">
+                          <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Week 13</td>
                             <td className="whitespace-nowrap px-3 py-4">7 v 9</td>
                             <td className="whitespace-nowrap px-3 py-4">2 v 12</td>

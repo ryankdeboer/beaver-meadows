@@ -707,7 +707,7 @@ function WomensLeaguePage() {
                       <table className="min-w-full table-fixed text-left text-sm font-light">
                         <thead className="border-b font-medium dark:border-neutral-500 text-center">
                           <tr>
-                            <th scope="col" colspan="4" className="px-3 py-4 text-xl bg-zinc-100 dark:bg-zinc-800">Week 10</th>
+                            <th scope="col" colspan="4" className="px-3 py-4 text-xl">Week 10</th>
                           </tr>
                         </thead>
                         <tbody className="text-center">
