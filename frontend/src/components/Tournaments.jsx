@@ -5,24 +5,6 @@ import { useLocation } from 'react-router-dom';
 // .slice(0,2)
 const tournaments = [
     {
-        name: 'Calcutta',
-        date: 'Saturday - 08-12-23 - 8am',
-        description:
-          'Men’s League Members Only',
-    },
-    {
-        name: 'Ladies Mid Iowa Over 50 - 2 Person Best Shot',
-        date: 'Monday - 08-14-23 - 8:30am',
-        description:
-          'Mid Iowa Members Only $25 per person',
-    },
-    {
-        name: 'City Tournament',
-        date: 'Sunday - 08-20-23 - 1pm',
-        description:
-          '$10 per division',
-    },
-    {
         name: 'Labor Day Tournament - 8” Cup',
         date: 'Monday - 09-04-23 - 10am',
         description:

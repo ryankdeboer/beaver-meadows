@@ -1,12 +1,6 @@
 import React from 'react'
 
-const events = [
-  {
-    name: 'Poker Run',
-    date: 'Saturday - 08-19-23',
-    description:
-      '',
-  },  
+const events = [ 
   {
         name: '4 Person Best Shot/2 cup - Beaver Fundraiser',
         date: 'Saturday - 09-16-23 - 11am',

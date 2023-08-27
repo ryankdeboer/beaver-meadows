@@ -29,6 +29,8 @@ function MensLeaguePage() {
             <h3 className='uppercase text-center sm:text-left text-gray-900 dark:text-white lg:text-white text-2xl tracking-wide font-normal pb-2'>Teams</h3>
             <div className="p-8 mb-4 text-center sm:text-left bg-white dark:bg-zinc-900 rounded-sm drop-shadow dark:text-white">
             <div className="mb-12 overflow-hidden">
+            <h3 className="mb-2">2023 Team Names</h3>
+              <hr className="mb-2"/>
               <table className="min-w-full table-fixed text-sm font-light">
                 <tbody>
                   <tr className="border-b dark:border-neutral-500">
@@ -85,7 +87,7 @@ function MensLeaguePage() {
           
         </section>
       </div>
-      <div className="md:px-6 py-1 lg:max-w-screen-2xl relative mx-auto ">
+      {/* <div className="md:px-6 py-1 lg:max-w-screen-2xl relative mx-auto ">
         <section className="m-4 col-span-2 text-center sm:text-left ">
           <h1 className="uppercase text-white text-2xl tracking-wide font-normal pb-2">
             Schedule
@@ -289,7 +291,7 @@ function MensLeaguePage() {
           </div>
         </section>
         
-      </div>
+      </div> */}
     </div>
   );
 }
