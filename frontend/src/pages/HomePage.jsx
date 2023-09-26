@@ -65,28 +65,33 @@ export default function HomePage() {
                                 </div>
                             </div>
 
-                        <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Men's League</h3>
+                        <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>2023 League Results</h3>
+                        <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
+                            <h4 className="text-white mb-2">Men's League Winners - Catfish</h4>
+                            <h4 className="text-white">Womens's League Winners - What Did John Do?</h4>
+                        </div>
+                        {/* <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Men's League</h3>
                             <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
                                 <MensLeague />
                             </div>
                         <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Women's League</h3>
                             <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
                                 <WomensLeague />
-                            </div>
+                            </div> */}
 
                         
                     </div>
                 </div>
                 <div className="col-span-1 relative m-4">
-                    <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Tournaments</h3>
-                        <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
-                            <Tournaments />
-                        </div>
+                    
                     <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Upcoming Events</h3>
                         <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
                             <Events />
                         </div>
-                    
+                    <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Tournaments</h3>
+                        <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
+                            <Tournaments />
+                        </div>
                     
                 </div>
             </section>

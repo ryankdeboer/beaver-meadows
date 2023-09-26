@@ -15,7 +15,7 @@ function TournamentsPage() {
           <h1 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>'23 Tournaments</h1>
             <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
             <Tournaments />
-            <a className="mt-5 inline-block dark:text-white" href="/files/2023-Tournament-Schedule.pdf" target="_blank">Tournaments Download</a>
+            <a className="mt-5 inline-block dark:text-white" href="/files/2023-Tournament-Schedule.pdf" target="_blank">2023 Tournaments Download</a>
             </div>
           </section>
           <section className="m-4 col-span-1 row-span-1">

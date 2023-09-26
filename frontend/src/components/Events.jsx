@@ -2,10 +2,10 @@ import React from 'react'
 
 const events = [ 
   {
-        name: '4 Person Best Shot/2 cup - Beaver Fundraiser',
-        date: 'Saturday - 09-16-23 - 11am',
+        name: 'End of Year Bash',
+        date: 'TBD',
         description:
-          '$80.00 per team',
+          '',
     },
   ]
 

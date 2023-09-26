@@ -18,7 +18,48 @@ function MensLeaguePage() {
             <div className="flex flex-col">
               <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
                 <div className="inline-block min-w-full py-2 sm:px-6 lg:px-8">
-                  <MensLeague />
+                  {/* <MensLeague /> */}
+                  <h3 className="text-xl mb-2 pb-2 dark:text-white border-b border-zinc-200 dark:border-zinc-800">Previous Years Men's League Winners</h3>
+                  <div className="mb-12 flex flex-col">
+                    <div className="overflow-x-auto sm:-mx-6 lg:-mx-8 dark:text-white">
+                      <div className="inline-block min-w-full py-2 sm:px-6 lg:px-8">
+                        <div className="overflow-hidden">
+                          <table className="min-w-full text-left text-sm font-light">
+                            <thead className="border-b font-medium dark:border-neutral-500">
+                              <tr>
+                                <th scope="col" className="px-6 py-4">Year</th>
+                                <th scope="col" className="px-6 py-4">Team Name</th>
+                              
+                              </tr>
+                            </thead>
+                            <tbody>
+                            <tr className="border-b dark:border-neutral-500">
+                                <td className="whitespace-nowrap px-6 py-4 font-medium">2023</td>
+                                <td className="whitespace-nowrap px-6 py-4">Catfish</td>
+                              </tr>
+                              <tr className="border-b dark:border-neutral-500">
+                                <td className="whitespace-nowrap px-6 py-4 font-medium">2022</td>
+                                <td className="whitespace-nowrap px-6 py-4">Maddogs</td>
+                              </tr>
+                              <tr className="border-b dark:border-neutral-500">
+                                <td className="whitespace-nowrap px-6 py-4 font-medium">2021</td>
+                                <td className="whitespace-nowrap px-6 py-4">S.S.B.E.</td>
+                              </tr>
+                              <tr className="border-b dark:border-neutral-500">
+                                <td className="whitespace-nowrap px-6 py-4 font-medium">2020</td>
+                                <td className="whitespace-nowrap px-6 py-4">Busch League</td>
+                              </tr>
+                              <tr className="border-b dark:border-neutral-500">
+                                <td className="whitespace-nowrap px-6 py-4 font-medium">2019</td>
+                                <td className="whitespace-nowrap px-6 py-4">Maddogs</td>
+                              </tr>
+                              
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

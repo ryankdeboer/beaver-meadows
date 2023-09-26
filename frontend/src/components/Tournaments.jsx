@@ -4,18 +4,12 @@ import { useLocation } from 'react-router-dom';
 
 // .slice(0,2)
 const tournaments = [
-    {
-        name: 'Labor Day Tournament - 8” Cup',
-        date: 'Monday - 09-04-23 - 10am',
-        description:
-          '$10.00 per person',
-    },
-    {
-        name: '4 Person Best Shot/2 cup - Beaver Fundraiser',
-        date: 'Saturday - 09-16-23 - 11am',
-        description:
-          '$80.00 per team',
-    },
+    // {
+    //     name: 'Kevin Kyhl Memorial/ALS Benefit - 4-Man Best Shot',
+    //     date: 'Saturday - 09-23-23 - 7:30am & 1pm Shotgun Start',
+    //     description:
+    //       '$50.00 per person',
+    // }
   ]
 
 
@@ -23,6 +17,7 @@ function Tournaments() {
     let location = useLocation();
     return (
         <div className="">
+            <p class="text-white">Thank you to everyone who came out this 2023 season to support Beaver Meadows and participate in our tournaments. Stay tuned for the 2024 schedule that will be posted on the website as soon as it's available.</p>
             {tournaments.map((tournament, index) => {
                 if(location.pathname === "/" && index < 4) {
                     return (
