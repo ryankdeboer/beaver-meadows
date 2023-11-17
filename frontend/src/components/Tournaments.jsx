@@ -5,10 +5,10 @@ import { useLocation } from 'react-router-dom';
 // .slice(0,2)
 const tournaments = [
     // {
-    //     name: 'Kevin Kyhl Memorial/ALS Benefit - 4-Man Best Shot',
-    //     date: 'Saturday - 09-23-23 - 7:30am & 1pm Shotgun Start',
+    //     name: 'Halloween Tournament',
+    //     date: 'Saturday - 10-28-23 - 10am',
     //     description:
-    //       '$50.00 per person',
+    //       '4 person best shot 2 cup - $30 per person',
     // }
   ]
 
