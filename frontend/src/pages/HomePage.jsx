@@ -34,9 +34,9 @@ export default function HomePage() {
                                     <h4 className="mb-2 text-base font-medium leading-6 text-black dark:text-white">Club House</h4>
                                     <div className='text-sm text-gray-700 dark:text-white'> 
                                         <ul class="mb-2">
-                                            <li>
+                                            {/* <li>
                                             Closed until the 2024 season.<br/><br/>
-                                            </li> 
+                                            </li>  */}
                                             <li> </li>
                                             <li>If you are looking to get ahold of someone from Beaver Meadows. <br/>Please message the <a href='https://www.facebook.com/profile.php?id=100057310845821'>Facebook page</a>.</li>
                                             
@@ -58,21 +58,21 @@ export default function HomePage() {
                                 </div>
                             </div>
 
-                        <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>2023 League Results</h3>
-                        <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
-                            <h4 className="text-white mb-2">Men's League Winners - Catfish</h4>
-                            <h4 className="text-white">Womens's League Winners - What Did John Do?</h4>
-                        </div>
-                        {/* <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Men's League</h3>
+                        {/* <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>2024 League Standings</h3> */}
+                        
+                        <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Men's League</h3>
                             <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
                                 <MensLeague />
                             </div>
-                        <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Women's League</h3>
+                        {/* <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Women's League</h3>
                             <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
                                 <WomensLeague />
                             </div> */}
-
-                        
+                        {/* <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>2023 League Results</h3>
+                        <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
+                            <h4 className="text-white mb-2">Men's League Winners - Catfish</h4>
+                            <h4 className="text-white">Womens's League Winners - What Did John Do?</h4>
+                        </div> */}
                     </div>
                 </div>
                 <div className="col-span-1 relative m-4">

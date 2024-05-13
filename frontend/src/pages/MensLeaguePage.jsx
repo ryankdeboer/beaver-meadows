@@ -18,7 +18,7 @@ function MensLeaguePage() {
             <div className="flex flex-col">
               <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
                 <div className="inline-block min-w-full py-2 sm:px-6 lg:px-8">
-                  {/* <MensLeague /> */}
+                  <MensLeague />
                   <h3 className="text-xl mb-2 pb-2 dark:text-white border-b border-zinc-200 dark:border-zinc-800">Previous Years Men's League Winners</h3>
                   <div className="mb-12 flex flex-col">
                     <div className="overflow-x-auto sm:-mx-6 lg:-mx-8 dark:text-white">
@@ -70,12 +70,12 @@ function MensLeaguePage() {
             <h3 className='uppercase text-center sm:text-left text-gray-900 dark:text-white lg:text-white text-2xl tracking-wide font-normal pb-2'>Teams</h3>
             <div className="p-8 mb-4 text-center sm:text-left bg-white dark:bg-zinc-900 rounded-sm drop-shadow dark:text-white">
             <div className="mb-12 overflow-hidden">
-            <h3 className="mb-2">2023 Team Names</h3>
+            <h3 className="mb-2">2024 Team Names</h3>
               <hr className="mb-2"/>
               <table className="min-w-full table-fixed text-sm font-light">
                 <tbody>
                   <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-3 py-2">1. Maddogs</td>
+                    <td className="whitespace-nowrap px-3 py-2">1. Catfish</td>
                   </tr>
                   <tr className="border-b dark:border-neutral-500">
                     <td className="whitespace-nowrap px-3 py-2">2. Wyffels</td>
@@ -99,7 +99,7 @@ function MensLeaguePage() {
                     <td className="whitespace-nowrap px-3 py-2">8. Busch League</td>
                   </tr>
                   <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-3 py-2">9. Catfish</td>
+                    <td className="whitespace-nowrap px-3 py-2">9. Maddogs</td>
                   </tr>
                   <tr className="border-b dark:border-neutral-500">
                     <td className="whitespace-nowrap px-3 py-2">10. River Rats</td>
@@ -108,13 +108,16 @@ function MensLeaguePage() {
                     <td className="whitespace-nowrap px-3 py-2">11. Beer Muscles</td>
                   </tr>
                   <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-3 py-2">12. CSS</td>
+                    <td className="whitespace-nowrap px-3 py-2">12. Putt Pirates</td>
                   </tr>
                   <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-3 py-2">13. Thirteen Bricks</td>
+                    <td className="whitespace-nowrap px-3 py-2">13. Last Place</td>
                   </tr>
                   <tr className="border-b dark:border-neutral-500">
                     <td className="whitespace-nowrap px-3 py-2">14. Falcons</td>
+                  </tr>
+                  <tr className="border-b dark:border-neutral-500">
+                    <td className="whitespace-nowrap px-3 py-2">15. New Old Guys</td>
                   </tr>
                   
                 </tbody>
