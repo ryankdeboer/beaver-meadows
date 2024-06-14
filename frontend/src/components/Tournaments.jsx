@@ -5,26 +5,8 @@ import { useLocation } from 'react-router-dom';
 // .slice(0,2)
 const tournaments = [
     {
-        name: 'Memorial Day Tournament',
-        date: 'Monday - 5-27-24 - 10am',
-        description:
-          '$10 per person',
-    },
-    {
-        name: '3 Course 4 Person Best Shot',
-        date: 'Saturday - 6-1-24 - 8:30am',
-        description:
-          '$250 per team (lunch included)',
-    },
-    {
-        name: 'Men’s Mid Iowa Over 50 - 2 Person Best Shot',
-        date: 'Monday - 6-3-24 - 8:00am & 1pm',
-        description:
-          'Mid Iowa Members Only $25 per person',
-    },
-    {
         name: 'Women’s Brunch Tournament',
-        date: 'Saturday - 6-23-24 - 11:00am',
+        date: 'Sunday - 6-23-24 - 11:00am',
         description:
           '$30 per person (brunch included)',
     },

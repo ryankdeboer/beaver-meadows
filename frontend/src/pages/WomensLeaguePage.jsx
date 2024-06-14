@@ -18,7 +18,7 @@ function WomensLeaguePage() {
             <div className="flex flex-col">
               <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
                 <div className="inline-block min-w-full py-2 sm:px-6 lg:px-8">
-                  {/* <WomensLeague /> */}
+                  <WomensLeague />
                   <h3 className="text-xl mb-2 pb-2 dark:text-white border-b border-zinc-200 dark:border-zinc-800">Previous Years Women's League Winners</h3>
                   <div className="mb-12 flex flex-col">
                     <div className="overflow-x-auto sm:-mx-6 lg:-mx-8 dark:text-white">
@@ -53,59 +53,64 @@ function WomensLeaguePage() {
             <h3 className='uppercase text-center sm:text-left text-gray-900 dark:text-white lg:text-white text-2xl tracking-wide font-normal pb-2'>Teams</h3>
             <div className="p-8 mb-4 text-center sm:text-left bg-white dark:bg-zinc-900 rounded-sm drop-shadow dark:text-white">
             <div className="mb-12 overflow-hidden">
-              <h3 className="mb-2">2023 Team Names</h3>
+              <h3 className="mb-2">2024 Team Names</h3>
               <hr className="mb-2"/>
               <table className="min-w-full table-fixed text-sm font-light">
                 <tbody>
                   <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-3 py-2">Twisted Squirrels</td>
+                    <td className="whitespace-nowrap px-3 py-2">Golf Goddeses</td>
                   </tr>
                   <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-3 py-2">Tee Time</td>
+                    <td className="whitespace-nowrap px-3 py-2">What did Jon Do?</td>
                   </tr>
                   <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-3 py-2">Perky Putters</td>
-                  </tr>
-                  <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-3 py-2">Classy and Sassy</td>
-                  </tr>
-                  <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-3 py-2">Divot and Goliath</td>
-                  </tr>
-                  <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-3 py-2">Life Savers</td>
-                  </tr>
-                  <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-3 py-2">2 Girls 1 Putt</td>
-                  </tr>
-                  <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-3 py-2">Guess what John Did?</td>
-                  </tr>
-                  <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-3 py-2">PowerPutt Girls</td>
-                  </tr>
-                  <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-3 py-2">The Course</td>
-                  </tr>
-                  <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-3 py-2">Talk Birdie Too Me</td>
-                  </tr>
-                  <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-3 py-2">Garden Girls</td>
-                  </tr>
-                  <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-3 py-2">Just Swinging</td>
-                  </tr>
-                  <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-3 py-2">Reckless Drivers</td>
+                    <td className="whitespace-nowrap px-3 py-2">Green Days</td>
                   </tr>
                   <tr className="border-b dark:border-neutral-500">
                     <td className="whitespace-nowrap px-3 py-2">Know Clue</td>
                   </tr>
                   <tr className="border-b dark:border-neutral-500">
-                    <td className="whitespace-nowrap px-3 py-2">2 fer 1</td>
+                    <td className="whitespace-nowrap px-3 py-2">Teed Off</td>
                   </tr>
-                  
+                  <tr className="border-b dark:border-neutral-500">
+                    <td className="whitespace-nowrap px-3 py-2">Dude Where’s my Par</td>
+                  </tr>
+                  <tr className="border-b dark:border-neutral-500">
+                    <td className="whitespace-nowrap px-3 py-2">It is what it is and it ain’t good</td>
+                  </tr>
+                  <tr className="border-b dark:border-neutral-500">
+                    <td className="whitespace-nowrap px-3 py-2">Perky Putters</td>
+                  </tr>
+                  <tr className="border-b dark:border-neutral-500">
+                    <td className="whitespace-nowrap px-3 py-2">Just Swinging</td>
+                  </tr>
+                  <tr className="border-b dark:border-neutral-500">
+                    <td className="whitespace-nowrap px-3 py-2">Divot and Goliath</td>
+                  </tr>
+                  <tr className="border-b dark:border-neutral-500">
+                    <td className="whitespace-nowrap px-3 py-2">Just Fore Fun</td>
+                  </tr>
+                  <tr className="border-b dark:border-neutral-500">
+                    <td className="whitespace-nowrap px-3 py-2">The Course</td>
+                  </tr>
+                  <tr className="border-b dark:border-neutral-500">
+                    <td className="whitespace-nowrap px-3 py-2">Power Putt Girls</td>
+                  </tr>
+                  <tr className="border-b dark:border-neutral-500">
+                    <td className="whitespace-nowrap px-3 py-2">Garden Girls</td>
+                  </tr>
+                  <tr className="border-b dark:border-neutral-500">
+                    <td className="whitespace-nowrap px-3 py-2">Sassy Swingers</td>
+                  </tr>
+                  <tr className="border-b dark:border-neutral-500">
+                    <td className="whitespace-nowrap px-3 py-2">Newbies</td>
+                  </tr>
+                  <tr className="border-b dark:border-neutral-500">
+                    <td className="whitespace-nowrap px-3 py-2">Life Savers</td>
+                  </tr>
+                  <tr className="border-b dark:border-neutral-500">
+                    <td className="whitespace-nowrap px-3 py-2">Reckless Drivers</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
@@ -117,7 +122,7 @@ function WomensLeaguePage() {
           
         </section>
       </div>
-      {/* <div className="md:px-6 py-1 lg:max-w-screen-2xl relative mx-auto ">
+      <div className="md:px-6 py-1 lg:max-w-screen-2xl relative mx-auto ">
         <section className="m-4 col-span-2 text-center sm:text-left ">
           <h1 className="uppercase text-white text-2xl tracking-wide font-normal pb-2">
             Schedule
@@ -136,55 +141,61 @@ function WomensLeaguePage() {
                         </thead>
                         <tbody className="text-center">
                           <tr>
-                            <th scope="col" colspan="4" className="px-3 py-4 text-center">Thursday, June 1, 2023</th>
+                            <th scope="col" colspan="4" className="px-3 py-4 text-center">Thursday, June 6, 2024</th>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 1</td>
-                            <td className="whitespace-nowrap px-3 py-4">Twisted Squirrels</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Tee Time</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 2</td>
-                            <td className="whitespace-nowrap px-3 py-4">Perky Putters</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Classy and Sassy</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 3</td>
-                            <td className="whitespace-nowrap px-3 py-4">Divot and Goliath</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Life Savers</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 5</td>
-                            <td className="whitespace-nowrap px-3 py-4">2 Girls 1 Putt</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Guess what John Did?</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 6</td>
-                            <td className="whitespace-nowrap px-3 py-4">PowerPutt Girls</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">The Course</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 7</td>
-                            <td className="whitespace-nowrap px-3 py-4">Talk Birdie Too Me</td>
+                            <td className="whitespace-nowrap px-3 py-4">Power Putt Girls</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
                             <td className="whitespace-nowrap px-3 py-4">Garden Girls</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 8</td>
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 2</td>
                             <td className="whitespace-nowrap px-3 py-4">Just Swinging</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Divot and Goliath</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 3</td>
+                            <td className="whitespace-nowrap px-3 py-4">Golf Goddeses</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">What did Jon Do?</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 4</td>
+                            <td className="whitespace-nowrap px-3 py-4">Just Fore Fun</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">The Course</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 5</td>
+                            <td className="whitespace-nowrap px-3 py-4">Green Days</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Know Clue</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 6</td>
+                            <td className="whitespace-nowrap px-3 py-4">Teed Off</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Dude Where’s my Par</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 7</td>
+                            <td className="whitespace-nowrap px-3 py-4">Life Savers</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
                             <td className="whitespace-nowrap px-3 py-4">Reckless Drivers</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 9</td>
-                            <td className="whitespace-nowrap px-3 py-4">Know Clue</td>
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 8</td>
+                            <td className="whitespace-nowrap px-3 py-4">It is what it is and it ain’t good</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">2 fer 1</td>
+                            <td className="whitespace-nowrap px-3 py-4">Perky Putters</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 9</td>
+                            <td className="whitespace-nowrap px-3 py-4">Sassy Swingers</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Newbies</td>
                           </tr>
                         </tbody>
                       </table>
@@ -202,55 +213,61 @@ function WomensLeaguePage() {
                         </thead>
                         <tbody className="text-center">
                           <tr>
-                            <th scope="col" colspan="4" className="px-3 py-4 text-center">Thursday, June 8, 2023</th>
+                            <th scope="col" colspan="4" className="px-3 py-4 text-center">Thursday, June 13, 2024</th>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 1</td>
-                            <td className="whitespace-nowrap px-3 py-4">Garden Girls</td>
+                            <td className="whitespace-nowrap px-3 py-4">It is what it is and it ain’t good</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Reckless Drivers</td>
+                            <td className="whitespace-nowrap px-3 py-4">Sassy Swingers</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 2</td>
-                            <td className="whitespace-nowrap px-3 py-4">Life Savers</td>
+                            <td className="whitespace-nowrap px-3 py-4">Dude Where’s my Par</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Tee Time</td>
+                            <td className="whitespace-nowrap px-3 py-4">Green Days</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 3</td>
-                            <td className="whitespace-nowrap px-3 py-4">Talk Birdie Too Me</td>
+                            <td className="whitespace-nowrap px-3 py-4">The Course</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Just Swinging</td>
+                            <td className="whitespace-nowrap px-3 py-4">Golf Goddeses</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 4</td>
-                            <td className="whitespace-nowrap px-3 py-4">Guess what John Did?</td>
+                            <td className="whitespace-nowrap px-3 py-4">Garden Girls</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Twisted Squirrels</td>
+                            <td className="whitespace-nowrap px-3 py-4">Just Fore Fun</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 6</td>
-                            <td className="whitespace-nowrap px-3 py-4">2 fer 1</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">2 Girls 1 Putt</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 7</td>
-                            <td className="whitespace-nowrap px-3 py-4">PowerPutt Girls</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Know Clue</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 8</td>
-                            <td className="whitespace-nowrap px-3 py-4">Classy and Sassy</td>
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 5</td>
+                            <td className="whitespace-nowrap px-3 py-4">Reckless Drivers</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
                             <td className="whitespace-nowrap px-3 py-4">Divot and Goliath</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 9</td>
-                            <td className="whitespace-nowrap px-3 py-4">The Course</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 6</td>
                             <td className="whitespace-nowrap px-3 py-4">Perky Putters</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Know Clue</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 7</td>
+                            <td className="whitespace-nowrap px-3 py-4">Newbies</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Teed Off</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 8</td>
+                            <td className="whitespace-nowrap px-3 py-4">Life Savers</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">What did Jon Do?</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 9</td>
+                            <td className="whitespace-nowrap px-3 py-4">Power Putt Girls</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Just Swinging</td>
                           </tr>
                         </tbody>
                       </table>
@@ -270,55 +287,61 @@ function WomensLeaguePage() {
                         </thead>
                         <tbody className="text-center">
                           <tr>
-                            <th scope="col" colspan="4" className="px-3 py-4 text-center">Thursday, June 15, 2023</th>
+                            <th scope="col" colspan="4" className="px-3 py-4 text-center">Thursday, June 20, 2024</th>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 1</td>
+                            <td className="whitespace-nowrap px-3 py-4">Life Savers</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Just Swinging</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 2</td>
+                            <td className="whitespace-nowrap px-3 py-4">Know Clue</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Sassy Swingers</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 3</td>
+                            <td className="whitespace-nowrap px-3 py-4">Green Days</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Newbies</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 4</td>
+                            <td className="whitespace-nowrap px-3 py-4">Reckless Drivers</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">It is what it is and it ain’t good</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 5</td>
+                            <td className="whitespace-nowrap px-3 py-4">Golf Goddeses</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Just Fore Fun</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 6</td>
+                            <td className="whitespace-nowrap px-3 py-4">What did Jon Do?</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Garden Girls</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 7</td>
                             <td className="whitespace-nowrap px-3 py-4">Divot and Goliath</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
                             <td className="whitespace-nowrap px-3 py-4">The Course</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 2</td>
-                            <td className="whitespace-nowrap px-3 py-4">Just Swinging</td>
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 8</td>
+                            <td className="whitespace-nowrap px-3 py-4">Dude Where’s my Par</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Life Savers</td>
+                            <td className="whitespace-nowrap px-3 py-4">Power Putt Girls</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 3</td>
-                            <td className="whitespace-nowrap px-3 py-4">Guess what John Did?</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">PowerPutt Girls</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 4</td>
-                            <td className="whitespace-nowrap px-3 py-4">Know Clue</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Classy and Sassy</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 5</td>
-                            <td className="whitespace-nowrap px-3 py-4">Twisted Squirrels</td>
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 9</td>
+                            <td className="whitespace-nowrap px-3 py-4">Teed Off</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
                             <td className="whitespace-nowrap px-3 py-4">Perky Putters</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 6</td>
-                            <td className="whitespace-nowrap px-3 py-4">Reckless Drivers</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Tee Time</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 7</td>
-                            <td className="whitespace-nowrap px-3 py-4">2 fer 1</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Talk Birdie Too Me</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 8</td>
-                            <td className="whitespace-nowrap px-3 py-4">2 Girls 1 Putt</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Garden Girls</td>
                           </tr>
                         </tbody>
                       </table>
@@ -336,55 +359,61 @@ function WomensLeaguePage() {
                         </thead>
                         <tbody className="text-center">
                           <tr>
-                            <th scope="col" colspan="4" className="px-3 py-4 text-center">Thursday, June 22, 2023</th>
+                            <th scope="col" colspan="4" className="px-3 py-4 text-center">Thursday, June 27, 2024</th>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 1</td>
-                            <td className="whitespace-nowrap px-3 py-4">PowerPutt Girls</td>
+                            <td className="whitespace-nowrap px-3 py-4">Sassy Swingers</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">2 Girls 1 Putt</td>
+                            <td className="whitespace-nowrap px-3 py-4">Green Days</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 2</td>
-                            <td className="whitespace-nowrap px-3 py-4">Garden Girls</td>
+                            <td className="whitespace-nowrap px-3 py-4">Just Fore Fun</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Newbies</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 3</td>
+                            <td className="whitespace-nowrap px-3 py-4">Perky Putters</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Life Savers</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 4</td>
+                            <td className="whitespace-nowrap px-3 py-4">What did Jon Do?</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
                             <td className="whitespace-nowrap px-3 py-4">Know Clue</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 3</td>
-                            <td className="whitespace-nowrap px-3 py-4">Reckless Drivers</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">2 fer 1</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 4</td>
-                            <td className="whitespace-nowrap px-3 py-4">Life Savers</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">The Course</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 5</td>
-                            <td className="whitespace-nowrap px-3 py-4">Talk Birdie Too Me</td>
+                            <td className="whitespace-nowrap px-3 py-4">Just Swinging</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Classy and Sassy</td>
+                            <td className="whitespace-nowrap px-3 py-4">It is what it is and it ain’t good</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 6</td>
-                            <td className="whitespace-nowrap px-3 py-4">Twisted Squirrels</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Just Swinging</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 7</td>
-                            <td className="whitespace-nowrap px-3 py-4">Perky Putters</td>
+                            <td className="whitespace-nowrap px-3 py-4">Garden Girls</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
                             <td className="whitespace-nowrap px-3 py-4">Divot and Goliath</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 9</td>
-                            <td className="whitespace-nowrap px-3 py-4">Tee Time</td>
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 7</td>
+                            <td className="whitespace-nowrap px-3 py-4">Power Putt Girls</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Guess what John Did?</td>
+                            <td className="whitespace-nowrap px-3 py-4">Golf Goddeses</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 8</td>
+                            <td className="whitespace-nowrap px-3 py-4">The Course</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Teed Off</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 9</td>
+                            <td className="whitespace-nowrap px-3 py-4">Dude Where’s my Par</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Reckless Drivers</td>
                           </tr>
                         </tbody>
                       </table>
@@ -404,56 +433,62 @@ function WomensLeaguePage() {
                         </thead>
                         <tbody className="text-center">
                           <tr>
-                            <th scope="col" colspan="4" className="px-3 py-4 text-center">Thursday, June 29, 2023</th>
+                            <th scope="col" colspan="4" className="px-3 py-4 text-center">Thursday, July 4, 2024 - HOLIDAY</th>
                           </tr>
-                          <tr className="border-b dark:border-neutral-500">
+                          {/* <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 1</td>
-                            <td className="whitespace-nowrap px-3 py-4">Reckless Drivers</td>
+                            <td className="whitespace-nowrap px-3 py-4"></td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Life Savers</td>
+                            <td className="whitespace-nowrap px-3 py-4"></td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 2</td>
-                            <td className="whitespace-nowrap px-3 py-4">Classy and Sassy</td>
+                            <td className="whitespace-nowrap px-3 py-4"></td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Tee Time</td>
+                            <td className="whitespace-nowrap px-3 py-4"></td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 3</td>
+                            <td className="whitespace-nowrap px-3 py-4"></td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4"></td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 4</td>
-                            <td className="whitespace-nowrap px-3 py-4">Perky Putters</td>
+                            <td className="whitespace-nowrap px-3 py-4"></td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">PowerPutt Girls</td>
+                            <td className="whitespace-nowrap px-3 py-4"></td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 5</td>
-                            <td className="whitespace-nowrap px-3 py-4">2 fer 1</td>
+                            <td className="whitespace-nowrap px-3 py-4"></td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Garden Girls</td>
+                            <td className="whitespace-nowrap px-3 py-4"></td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 6</td>
-                            <td className="whitespace-nowrap px-3 py-4">Divot and Goliath</td>
+                            <td className="whitespace-nowrap px-3 py-4"></td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Just Swinging</td>
+                            <td className="whitespace-nowrap px-3 py-4"></td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 7</td>
-                            <td className="whitespace-nowrap px-3 py-4">The Course</td>
+                            <td className="whitespace-nowrap px-3 py-4"></td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Guess what John Did?</td>
+                            <td className="whitespace-nowrap px-3 py-4"></td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 8</td>
-                            <td className="whitespace-nowrap px-3 py-4">Know Clue</td>
+                            <td className="whitespace-nowrap px-3 py-4"></td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Twisted Squirrels</td>
+                            <td className="whitespace-nowrap px-3 py-4"></td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 9</td>
-                            <td className="whitespace-nowrap px-3 py-4">2 Girls 1 Putt</td>
+                            <td className="whitespace-nowrap px-3 py-4"></td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Talk Birdie Too Me</td>
-                          </tr>
+                            <td className="whitespace-nowrap px-3 py-4"></td>
+                          </tr> */}
                         </tbody>
                       </table>
                     </div>
@@ -470,55 +505,61 @@ function WomensLeaguePage() {
                         </thead>
                         <tbody className="text-center">
                           <tr>
-                            <th scope="col" colspan="4" className="px-3 py-4 text-center">Thursday, July 6, 2023</th>
+                            <th scope="col" colspan="4" className="px-3 py-4 text-center">Thursday, July 11, 2024</th>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 1</td>
-                            <td className="whitespace-nowrap px-3 py-4">Just Swinging</td>
+                            <td className="whitespace-nowrap px-3 py-4">Newbies</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Golf Goddeses</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 2</td>
+                            <td className="whitespace-nowrap px-3 py-4">Green Days</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
                             <td className="whitespace-nowrap px-3 py-4">Perky Putters</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 2</td>
-                            <td className="whitespace-nowrap px-3 py-4">PowerPutt Girls</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">2 fer 1</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 3</td>
-                            <td className="whitespace-nowrap px-3 py-4">2 Girls 1 Putt</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">The Course</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 4</td>
-                            <td className="whitespace-nowrap px-3 py-4">Tee Time</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Divot and Goliath</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 5</td>
-                            <td className="whitespace-nowrap px-3 py-4">Talk Birdie Too Me</td>
+                            <td className="whitespace-nowrap px-3 py-4">It is what it is and it ain’t good</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
                             <td className="whitespace-nowrap px-3 py-4">Know Clue</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 6</td>
-                            <td className="whitespace-nowrap px-3 py-4">Guess what John Did?</td>
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 4</td>
+                            <td className="whitespace-nowrap px-3 py-4">Life Savers</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Power Putt Girls</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 5</td>
+                            <td className="whitespace-nowrap px-3 py-4">Garden Girls</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Teed Off</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 6</td>
                             <td className="whitespace-nowrap px-3 py-4">Reckless Drivers</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Sassy Swingers</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 7</td>
+                            <td className="whitespace-nowrap px-3 py-4">What did Jon Do?</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Dude Where’s my Par</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 8</td>
-                            <td className="whitespace-nowrap px-3 py-4">Garden Girls</td>
+                            <td className="whitespace-nowrap px-3 py-4">Just Swinging</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Life Savers</td>
+                            <td className="whitespace-nowrap px-3 py-4">The Course</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 9</td>
-                            <td className="whitespace-nowrap px-3 py-4">Classy and Sassy</td>
+                            <td className="whitespace-nowrap px-3 py-4">Just Fore Fun</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Twisted Squirrels</td>
+                            <td className="whitespace-nowrap px-3 py-4">Divot and Goliath</td>
                           </tr>
                         </tbody>
                       </table>
@@ -538,55 +579,61 @@ function WomensLeaguePage() {
                         </thead>
                         <tbody className="text-center">
                           <tr>
-                            <th scope="col" colspan="4" className="px-3 py-4 text-center">Thursday, July 13, 2023</th>
+                            <th scope="col" colspan="4" className="px-3 py-4 text-center">Thursday, July 18, 2024</th>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 2</td>
-                            <td className="whitespace-nowrap px-3 py-4">Twisted Squirrels</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">2 fer 1</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 3</td>
-                            <td className="whitespace-nowrap px-3 py-4">Tee Time</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">The Course</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 4</td>
-                            <td className="whitespace-nowrap px-3 py-4">Know Clue</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Guess what John Did?</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 5</td>
-                            <td className="whitespace-nowrap px-3 py-4">Just Swinging</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">PowerPutt Girls</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 6</td>
-                            <td className="whitespace-nowrap px-3 py-4">Life Savers</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Sara and Loren</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 7</td>
-                            <td className="whitespace-nowrap px-3 py-4">Classy and Sassy</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">2 Girls 1 Putt</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 8</td>
-                            <td className="whitespace-nowrap px-3 py-4">Perky Putters</td>
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 1</td>
+                            <td className="whitespace-nowrap px-3 py-4">Just Fore Fun</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
                             <td className="whitespace-nowrap px-3 py-4">Reckless Drivers</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 9</td>
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 2</td>
+                            <td className="whitespace-nowrap px-3 py-4">Power Putt Girls</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">What did Jon Do?</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 3</td>
+                            <td className="whitespace-nowrap px-3 py-4">Garden Girls</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Perky Putters</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 4</td>
+                            <td className="whitespace-nowrap px-3 py-4">Teed Off</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Know Clue</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 5</td>
+                            <td className="whitespace-nowrap px-3 py-4">Dude Where’s my Par</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Just Swinging</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 6</td>
+                            <td className="whitespace-nowrap px-3 py-4">Golf Goddeses</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Sassy Swingers</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 7</td>
+                            <td className="whitespace-nowrap px-3 py-4">It is what it is and it ain’t good</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Green Days</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 8</td>
                             <td className="whitespace-nowrap px-3 py-4">Divot and Goliath</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Garden Girls</td>
+                            <td className="whitespace-nowrap px-3 py-4">Newbies</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 9</td>
+                            <td className="whitespace-nowrap px-3 py-4">The Course</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Life Savers</td>
                           </tr>
                         </tbody>
                       </table>
@@ -604,55 +651,61 @@ function WomensLeaguePage() {
                         </thead>
                         <tbody className="text-center">
                           <tr>
-                            <th scope="col" colspan="4" className="px-3 py-4 text-center">Thursday, July 20, 2023</th>
+                            <th scope="col" colspan="4" className="px-3 py-4 text-center">Thursday, July 25, 2024</th>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 1</td>
-                            <td className="whitespace-nowrap px-3 py-4">2 fer 1</td>
+                            <td className="whitespace-nowrap px-3 py-4">What did Jon Do?</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Divot and Goliath</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 2</td>
+                            <td className="whitespace-nowrap px-3 py-4">Teed Off</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Life Savers</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 3</td>
+                            <td className="whitespace-nowrap px-3 py-4">Just Swinging</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Garden Girls</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 4</td>
+                            <td className="whitespace-nowrap px-3 py-4">Sassy Swingers</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
                             <td className="whitespace-nowrap px-3 py-4">Perky Putters</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 2</td>
-                            <td className="whitespace-nowrap px-3 py-4">Guess what John Did?</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Talk Birdie Too Me</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 3</td>
-                            <td className="whitespace-nowrap px-3 py-4">Garden Girls</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Twisted Squirrels</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 4</td>
-                            <td className="whitespace-nowrap px-3 py-4">Reckless Drivers</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">2 Girls 1 Putt</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 5</td>
-                            <td className="whitespace-nowrap px-3 py-4">Life Savers</td>
+                            <td className="whitespace-nowrap px-3 py-4">Know Clue</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Classy and Sassy</td>
+                            <td className="whitespace-nowrap px-3 py-4">The Course</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 6</td>
+                            <td className="whitespace-nowrap px-3 py-4">Newbies</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">It is what it is and it ain’t good</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 7</td>
-                            <td className="whitespace-nowrap px-3 py-4">Tee Time</td>
+                            <td className="whitespace-nowrap px-3 py-4">Green Days</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Just Swinging</td>
+                            <td className="whitespace-nowrap px-3 py-4">Reckless Drivers</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 8</td>
-                            <td className="whitespace-nowrap px-3 py-4">The Course</td>
+                            <td className="whitespace-nowrap px-3 py-4">Power Putt Girls</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Know Clue</td>
+                            <td className="whitespace-nowrap px-3 py-4">Just Fore Fun</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 9</td>
-                            <td className="whitespace-nowrap px-3 py-4">PowerPutt Girls</td>
+                            <td className="whitespace-nowrap px-3 py-4">Golf Goddeses</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Divot and Goliath</td>
+                            <td className="whitespace-nowrap px-3 py-4">Dude Where’s my Par</td>
                           </tr>
                         </tbody>
                       </table>
@@ -672,55 +725,61 @@ function WomensLeaguePage() {
                         </thead>
                         <tbody className="text-center">
                           <tr>
-                            <th scope="col" colspan="4" className="px-3 py-4 text-center">Thursday, July 27, 2023</th>
+                            <th scope="col" colspan="4" className="px-3 py-4 text-center">Thursday, August 1, 2024</th>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 1</td>
-                            <td className="whitespace-nowrap px-3 py-4">The Course</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Classy and Sassy</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 3</td>
-                            <td className="whitespace-nowrap px-3 py-4">2 Girls 1 Putt</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Life Savers</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 4</td>
-                            <td className="whitespace-nowrap px-3 py-4">Talk Birdie Too Me</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Twisted Squirrels</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 5</td>
-                            <td className="whitespace-nowrap px-3 py-4">Divot and Goliath</td>
+                            <td className="whitespace-nowrap px-3 py-4">Know Clue</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
                             <td className="whitespace-nowrap px-3 py-4">Reckless Drivers</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 6</td>
-                            <td className="whitespace-nowrap px-3 py-4">Garden Girls</td>
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 2</td>
+                            <td className="whitespace-nowrap px-3 py-4">Teed Off</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Perky Putters</td>
+                            <td className="whitespace-nowrap px-3 py-4">Sassy Swingers</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 3</td>
+                            <td className="whitespace-nowrap px-3 py-4">The Course</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">What did Jon Do?</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 4</td>
+                            <td className="whitespace-nowrap px-3 py-4">Just Swinging</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Green Days</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 5</td>
+                            <td className="whitespace-nowrap px-3 py-4">Life Savers</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Just Fore Fun</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 6</td>
+                            <td className="whitespace-nowrap px-3 py-4">Divot and Goliath</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Power Putt Girls</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 7</td>
-                            <td className="whitespace-nowrap px-3 py-4">PowerPutt Girls</td>
+                            <td className="whitespace-nowrap px-3 py-4">Perky Putters</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Tee Time</td>
+                            <td className="whitespace-nowrap px-3 py-4">Dude Where’s my Par</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 8</td>
-                            <td className="whitespace-nowrap px-3 py-4">2 fer 1</td>
+                            <td className="whitespace-nowrap px-3 py-4">Garden Girls</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Guess what John Did?</td>
+                            <td className="whitespace-nowrap px-3 py-4">Golf Goddeses</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 9</td>
-                            <td className="whitespace-nowrap px-3 py-4">Know Clue</td>
+                            <td className="whitespace-nowrap px-3 py-4">Newbies</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Just Swinging</td>
+                            <td className="whitespace-nowrap px-3 py-4">It is what it is and it ain’t good</td>
                           </tr>
                         </tbody>
                       </table>
@@ -738,67 +797,149 @@ function WomensLeaguePage() {
                         </thead>
                         <tbody className="text-center">
                           <tr>
-                            <th scope="col" colspan="4" className="px-3 py-4 text-center">Thursday, August 3, 2023</th>
+                            <th scope="col" colspan="4" className="px-3 py-4 text-center">Thursday, August 8, 2024</th>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 1</td>
-                            <td className="whitespace-nowrap px-3 py-4">Twisted Squirrels</td>
+                            <td className="whitespace-nowrap px-3 py-4">Dude Where’s my Par</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">PowerPutt Girls</td>
+                            <td className="whitespace-nowrap px-3 py-4">It is what it is and it ain’t good</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 2</td>
                             <td className="whitespace-nowrap px-3 py-4">Divot and Goliath</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">2 fer 1</td>
+                            <td className="whitespace-nowrap px-3 py-4">Golf Goddeses</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 3</td>
+                            <td className="whitespace-nowrap px-3 py-4">Reckless Drivers</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
                             <td className="whitespace-nowrap px-3 py-4">Perky Putters</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 4</td>
+                            <td className="whitespace-nowrap px-3 py-4">What did Jon Do?</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Teed Off</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 5</td>
+                            <td className="whitespace-nowrap px-3 py-4">Power Putt Girls</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Newbies</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 6</td>
+                            <td className="whitespace-nowrap px-3 py-4">Just Fore Fun</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Just Swinging</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 7</td>
+                            <td className="whitespace-nowrap px-3 py-4">Life Savers</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
                             <td className="whitespace-nowrap px-3 py-4">Know Clue</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 4</td>
-                            <td className="whitespace-nowrap px-3 py-4">Just Swinging</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">2 Girls 1 Putt</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 5</td>
-                            <td className="whitespace-nowrap px-3 py-4">The Course</td>
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 8</td>
+                            <td className="whitespace-nowrap px-3 py-4">Green Days</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
                             <td className="whitespace-nowrap px-3 py-4">Garden Girls</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 7</td>
-                            <td className="whitespace-nowrap px-3 py-4">Reckless Drivers</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Classy and Sassy</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
-                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 8</td>
-                            <td className="whitespace-nowrap px-3 py-4">Sara and Loren</td>
-                            <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Tee Time</td>
-                          </tr>
-                          <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 9</td>
-                            <td className="whitespace-nowrap px-3 py-4">Guess what John Did?</td>
+                            <td className="whitespace-nowrap px-3 py-4">Sassy Swingers</td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
-                            <td className="whitespace-nowrap px-3 py-4">Life Savers</td>
+                            <td className="whitespace-nowrap px-3 py-4">The Course</td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
                   </div>
                 </div>
+
+
+                <div className="lg:grid gap-2 grid-cols-2">
+                  <div className="inline-block min-w-full py-2 sm:px-6 lg:px-8">
+                    <div className="mb-12 overflow-hidden">
+                      <table className="min-w-full table-fixed text-left text-sm font-light">
+                        <thead className="border-b font-medium dark:border-neutral-500 text-center">
+                          <tr>
+                            <th scope="col" colspan="4" className="px-3 py-4 text-xl">Week 12</th>
+                          </tr>
+                        </thead>
+                        <tbody className="text-center">
+                          <tr>
+                            <th scope="col" colspan="4" className="px-3 py-4 text-center">Thursday, August 15, 2024</th>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 1</td>
+                            <td className="whitespace-nowrap px-3 py-4">Perky Putters</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Just Fore Fun</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 2</td>
+                            <td className="whitespace-nowrap px-3 py-4">It is what it is and it ain’t good</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Life Savers</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 3</td>
+                            <td className="whitespace-nowrap px-3 py-4">Sassy Swingers</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Just Swinging</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 4</td>
+                            <td className="whitespace-nowrap px-3 py-4">Garden Girls</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Dude Where’s my Par</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 5</td>
+                            <td className="whitespace-nowrap px-3 py-4">What did Jon Do?</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Green Days</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 6</td>
+                            <td className="whitespace-nowrap px-3 py-4">Reckless Drivers</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Power Putt Girls</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 7</td>
+                            <td className="whitespace-nowrap px-3 py-4">Teed Off</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Divot and Goliath</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 8</td>
+                            <td className="whitespace-nowrap px-3 py-4">Know Clue</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Golf Goddeses</td>
+                          </tr>
+                          <tr className="border-b dark:border-neutral-500">
+                            <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Hole 9</td>
+                            <td className="whitespace-nowrap px-3 py-4">The Course</td>
+                            <td className="whitespace-nowrap px-3 py-4">vs</td>
+                            <td className="whitespace-nowrap px-3 py-4">Newbies</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+
+
+                 
+                </div>
               </div>
             </div>
           </div>
         </section>
-        
-      </div> */}
+      </div>
     </div>
   );
 }

@@ -64,10 +64,10 @@ export default function HomePage() {
                             <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
                                 <MensLeague />
                             </div>
-                        {/* <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Women's League</h3>
+                        <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Women's League</h3>
                             <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
                                 <WomensLeague />
-                            </div> */}
+                            </div>
                         {/* <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>2023 League Results</h3>
                         <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
                             <h4 className="text-white mb-2">Men's League Winners - Catfish</h4>
