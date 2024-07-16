@@ -1,12 +1,12 @@
 import React from 'react'
 
 const events = [ 
-  // {
-  //       name: 'End of Year Bash',
-  //       date: 'TBD',
-  //       description:
-  //         '',
-  //   },
+  {
+        name: '5th Annual Golf Cart Poker Run',
+        date: '8-17-24',
+        description:
+          'Registration at 11:30am. $20 per person',
+    },
   ]
 
 
