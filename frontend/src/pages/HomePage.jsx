@@ -33,20 +33,13 @@ export default function HomePage() {
                                 <div className="mb-4 pb-4 sm:mb-0 sm:pb-0 border-b border-zinc-200 dark:border-zinc-800 sm:border-none">
                                     <h4 className="mb-2 text-base font-medium leading-6 text-black dark:text-white">Club House</h4>
                                     <div className='text-sm text-gray-700 dark:text-white'> 
-                                        <ul>
-                                            <li>
-                                            Hours are seasonal
-                                            </li>
-                                            <li>
-                                            Mon - Tues: 3pm to Close
-                                            </li> 
-                                            <li>
-                                            Wed - Fri: 1pm to Close
-                                            </li>
-                                            <li>
-                                            Sat - Sun: 9am to Close
-                                            </li>
-                                            <br/>
+                                        <ul class="mb-2">
+                                            {/* <li>
+                                            Closed until the 2024 season.<br/><br/>
+                                            </li>  */}
+                                            <li> </li>
+                                            <li>If you are looking to get ahold of someone from Beaver Meadows. <br/>Please message the <a href='https://www.facebook.com/profile.php?id=100057310845821'>Facebook page</a>.</li>
+                                            
                                         </ul>
                                     </div>
                                 </div>
@@ -65,6 +58,8 @@ export default function HomePage() {
                                 </div>
                             </div>
 
+                        {/* <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>2024 League Standings</h3> */}
+                        
                         <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Men's League</h3>
                             <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
                                 <MensLeague />
@@ -73,20 +68,24 @@ export default function HomePage() {
                             <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
                                 <WomensLeague />
                             </div>
-
-                        
+                        {/* <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>2023 League Results</h3>
+                        <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
+                            <h4 className="text-white mb-2">Men's League Winners - Catfish</h4>
+                            <h4 className="text-white">Womens's League Winners - What Did John Do?</h4>
+                        </div> */}
                     </div>
                 </div>
                 <div className="col-span-1 relative m-4">
-                    <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Tournaments</h3>
-                        <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
-                            <Tournaments />
-                        </div>
-                    <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Upcoming Events</h3>
-                        <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
-                            <Events />
-                        </div>
                     
+                    
+                    <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Tournaments</h3>
+                    <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
+                        <Tournaments />
+                    </div>
+                    <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Upcoming Events</h3>
+                    <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
+                        <Events />
+                    </div>
                     
                 </div>
             </section>

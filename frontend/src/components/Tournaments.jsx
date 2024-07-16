@@ -5,52 +5,52 @@ import { useLocation } from 'react-router-dom';
 // .slice(0,2)
 const tournaments = [
     {
-        name: 'July 4th Tournament',
-        date: 'Tuesday - 07-04-23 - 10am',
+        name: '4 Gal Best Shot',
+        date: 'Thursday - 7-18-24 - 9:00am',
         description:
-          '$10.00 per person',
+          '$30 per person, $20 cart',
+    },
+    {
+        name: '4 Person Best Shot/2 cup - Beaver Fundraiser',
+        date: 'Saturday - 7-27-24 - 10:00am',
+        description:
+          '$80.00 per team',
     },
     {
         name: '2 Couple Best Shot',
-        date: 'Saturday - 07-15-23 - 10am',
+        date: 'Saturday - 7-27-24 - 10:00am',
         description:
           '$60.00 per team',
     },
     {
-        name: '4 Gal Best Shot',
-        date: 'Thursday - 07-20-23 - 9am',
+        name: 'Calcutta - Men’s League Members Only',
+        date: 'Saturday - 8-10-24',
         description:
-          '$25 per person, $20 cart',
+          '',
     },
     {
-        name: 'Calcutta',
-        date: 'Saturday - 08-12-23 - 8am',
-        description:
-          'Men’s League Members Only',
-    },
-    {
-        name: 'Ladies Mid Iowa Over 50 - 2 Person Best Shot',
-        date: 'Monday - 08-14-23 - 8:30am',
+        name: 'Ladies Mid Iowa Over 50 - 4 Person Best Shot',
+        date: 'Monday - 8-12-24 - 8:30am',
         description:
           'Mid Iowa Members Only $25 per person',
     },
     {
         name: 'City Tournament',
-        date: 'Sunday - 08-20-23 - 1pm',
+        date: 'Sunday - 8-18-24 - 1pm',
         description:
           '$10 per division',
     },
     {
         name: 'Labor Day Tournament - 8” Cup',
-        date: 'Monday - 09-04-23 - 10am',
+        date: 'Monday - 9-2-24 - 10:00am',
         description:
           '$10.00 per person',
     },
     {
-        name: '4 Person Best Shot/2 cup - Beaver Fundraiser',
-        date: 'Saturday - 09-16-23 - 11am',
+        name: 'Women’s Brunch Tournament',
+        date: 'Sunday - 9-15-24 - 11:00am',
         description:
-          '$80.00 per team',
+          '$30 per person (brunch included)',
     },
   ]
 
@@ -59,6 +59,7 @@ function Tournaments() {
     let location = useLocation();
     return (
         <div className="">
+            {/* <p class="text-white">Thank you to everyone who came out this 2023 season to support Beaver Meadows and participate in our tournaments. Stay tuned for the 2024 schedule that will be posted on the website as soon as it's available.</p> */}
             {tournaments.map((tournament, index) => {
                 if(location.pathname === "/" && index < 4) {
                     return (

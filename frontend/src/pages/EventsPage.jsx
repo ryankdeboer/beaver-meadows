@@ -17,7 +17,7 @@ function EventsPage() {
             The clubhouse is available to rent for your special occasion. Please call the clubhouse to check availability and pricing at <a href="tel:3193461870">319-346-1870.</a>
             <div className="mb-10"></div>
 
-            <h2 className="pb-4 text-xl font-normal leading-6 text-black dark:text-white sm:text-2xl border-b border-zinc-200 dark:border-zinc-800">2023 Upcoming Events</h2>
+            <h2 className="pb-4 text-xl font-normal leading-6 text-black dark:text-white sm:text-2xl border-b border-zinc-200 dark:border-zinc-800">2024 Upcoming Events</h2>
             <Events />
           </div>
           

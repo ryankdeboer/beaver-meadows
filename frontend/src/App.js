@@ -6,6 +6,7 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import TournamentsPage from "./pages/TournamentsPage";
 import EventsPage from "./pages/EventsPage";
+import CoursePage from "./pages/CoursePage";
 import LeagueStandingsPage from "./pages/LeagueStandingsPage";
 
 import DailyRatesPage from "./pages/DailyRatesPage";
@@ -64,6 +65,9 @@ localStorage.removeItem('theme')
             }/>
             <Route path="/events" element={
               <EventsPage/>
+            }/>
+            <Route path="/course" element={
+              <CoursePage/>
             }/>
             <Route path="/contact" element={
               <ContactPage/>

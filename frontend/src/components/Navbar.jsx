@@ -37,13 +37,59 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
+
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [state] = useState(false);
 
+  let [isOpen, setIsOpen] = useState(false)
+
+  function closeModal() {
+    setIsOpen(false)
+  }
+
+  function openModal() {
+    setIsOpen(true)
+  }
+
   return (
-    
       <header className="bg-white dark:bg-zinc-800 shadow-sm w-full sm:bg-white/[1] sm:fixed top-0 left-0 right-0 z-40">
+        <Transition appear show={isOpen} as={Fragment}>
+        <Dialog as="div" className="relative z-10" onClose={closeModal}>
+          <Transition.Child
+            as={Fragment}
+            enter="ease-out duration-300"
+            enterFrom="opacity-0"
+            enterTo="opacity-100"
+            leave="ease-in duration-200"
+            leaveFrom="opacity-100"
+            leaveTo="opacity-0"
+          >
+            <div className="fixed inset-0 bg-black bg-opacity-25" />
+          </Transition.Child>
+
+          <div className="fixed inset-0 overflow-y-auto">
+            <div className="flex min-h-full items-center justify-center p-4 text-center">
+              <Transition.Child
+                as={Fragment}
+                enter="ease-out duration-300"
+                enterFrom="opacity-0 scale-95"
+                enterTo="opacity-100 scale-100"
+                leave="ease-in duration-200"
+                leaveFrom="opacity-100 scale-100"
+                leaveTo="opacity-0 scale-95"
+              >
+                <Dialog.Panel className="md:w-[640px] md:h-[320px] xl:h-[720px] xl:w-[1280px]  transform rounded-2xl bg-white shadow-xl transition-all">
+                  <iframe className="video" src="https://www.youtube.com/embed/PObmNChjEVQ" title="Beaver Meadows Golf & Country Club" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                </Dialog.Panel>
+              </Transition.Child>
+            </div>
+          </div>
+        </Dialog>
+      </Transition>
+
+
+
         <div className={state?"sm:bg-white":""}>
         <nav className="mx-auto flex lg:max-w-screen-2xl items-center justify-between p-3 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
@@ -78,6 +124,16 @@ export default function Navbar() {
             <Link to="/events" className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-100 hover:text-green-900 dark:hover:text-gray-400">
               Events
             </Link>
+            <button
+              type="button"
+              onClick={openModal}
+              className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-100 hover:text-green-900 dark:hover:text-gray-400"
+            >
+              COURSE
+            </button>
+            {/* <Link to="/course" className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-100 hover:text-green-900 dark:hover:text-gray-400">
+              Course
+            </Link> */}
             {/* <Link to="/league-standings" className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-100 hover:text-green-900 dark:hover:text-gray-400">
               League Standings
             </Link> */}
@@ -150,42 +206,7 @@ export default function Navbar() {
                 </Popover.Panel>
               </Transition>
             </Popover>
-            {/* <Popover className="relative">
-              <Popover.Button className="flex items-center gap-x-1 uppercase text-sm font-semibold leading-6 text-gray-900 hover:text-green-900">
-                Course
-                <ChevronDownIcon className="h-5 w-5 flex-none text-gray-900" aria-hidden="true" />
-              </Popover.Button>
-              <Transition
-                as={Fragment}
-                enter="transition ease-out duration-200"
-                enterFrom="opacity-0 translate-y-1"
-                enterTo="opacity-100 translate-y-0"
-                leave="transition ease-in duration-150"
-                leaveFrom="opacity-100 translate-y-0"
-                leaveTo="opacity-0 translate-y-1"
-              >
-                <Popover.Panel className="absolute top-full right-0 z-10 mt-3 w-56 min-w-sm overflow-hidden rounded-sm bg-white  shadow-lg ring-1 ring-gray-900/5">
-                  <div className="p-4">
-                    {holes.map((item) => (
-                      <div
-                        key={item.name}
-                        className="group relative flex items-center gap-x-6 rounded-lg p-2 text-sm leading-6 hover:bg-gray-50"
-                      >
-                        <div className="flex h-6 flex-none items-center justify-center rounded-lg group-hover:bg-gray-50">
-                          <item.icon className="h-6 w-6 text-gray-600 group-hover:text-green-900" aria-hidden="true" />
-                        </div>
-                        <div className="flex-auto">
-                          <a href={item.href} className="block font-semibold text-gray-900 hover:text-green-900">
-                            {item.name}
-                            <span className="absolute inset-0" />
-                          </a>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </Popover.Panel>
-              </Transition>
-            </Popover> */}
+          
           </Popover.Group> 
         </nav>
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -224,7 +245,9 @@ export default function Navbar() {
                   <Link to="/events" onClick={() => setMobileMenuOpen(false)} className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 dark:text-gray-100 hover:bg-gray-50 dark:hover:bg-zinc-700 hover:text-green-900 dark:hover:text-white" >
                     Events
                   </Link>
-                  
+                  <Link to="https://www.youtube.com/watch?v=PObmNChjEVQ" onClick={() => setMobileMenuOpen(false)} className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 dark:text-gray-100 hover:bg-gray-50 dark:hover:bg-zinc-700 hover:text-green-900 dark:hover:text-white" >
+                    Course
+                  </Link>
                   <Disclosure as="div" className="-mx-3">
                     {({ open }) => (
                       <>

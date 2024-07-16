@@ -8,23 +8,11 @@ function SubpageContact() {
             <div className="mb-4 pb-4 sm:mb-0 sm:pb-0 border-b border-zinc-200 dark:border-zinc-800 sm:border-none">
                     <h4 className="mb-2 text-base font-medium leading-6 text-black dark:text-white">Club House</h4>
                     <div className='text-sm text-gray-700 dark:text-white'> 
-                        <ul>
-                            <li>
-                            Hours are seasonal
-                            </li>
-                            <li>
-                            Mon - Tues: 3pm to Close
-                            </li> 
-                            <li>
-                            Wed - Fri: 1pm to Close
-                            </li>
-                            <li>
-                            Sat - Sun: 9am to Close
-                            </li>
-                            <br/>
-                                
+                        <ul class="mb-5">
+                            
+                            <li>If you are looking to get ahold of someone from Beaver Meadows. Please message the <a href='https://www.facebook.com/profile.php?id=100057310845821'>Facebook page</a>.</li>
+                            
                         </ul>
-                    
                     </div>
                 </div>
                 <div className="">

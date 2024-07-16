@@ -5,74 +5,80 @@ import React from 'react'
 const standings = [
     {
         position: '1',
-        name: 'River Rats',
-        points: '192.5',
+        name: 'Wyffels',
+        points: '112.5',
     },
     {
         position: '2',
-        name: 'Maddogs',
-        points: '187.5',
+        name: 'Stub\'s Stallions',
+        points: '108.5',
     },
     {
         position: '3',
-        name: 'SSBE',
-        points: '182',
+        name: 'Catfish',
+        points: '99',
     },
     {
         position: '4',
-        name: 'Beer Muscles',
-        points: '180.5',
+        name: 'Falcons',
+        points: '98',
     },
     {
         position: '5',
-        name: 'Sneed Insurance',
-        points: '154',
+        name: 'JL Construction',
+        points: '95',
     },
     {
         position: '6',
-        name: 'City Sanitary Service',
-        points: '152.5',
+        name: 'Busch League',
+        points: '93',
     },
     {
         position: '7',
-        name: 'Catfish',
-        points: '152',
+        name: 'Beer Muscles',
+        points: '92.5',
     },
     {
         position: '8',
-        name: 'P-Burg Vet',
-        points: '150',
+        name: 'Maddogs',
+        points: '88.5',
     },
     {
         position: '9',
-        name: 'Busch League',
-        points: '147',
+        name: 'River Rats',
+        points: '87.5',
     },
     {
         position: '10',
-        name: 'Wyffels',
-        points: '146.5',
+        name: 'P-Burg Vet',
+        points: '85',
     },
     {
         position: '11',
-        name: 'Falcons',
-        points: '143',
+        name: 'Putt Pirates',
+        points: '83',
     },
     {
         position: '12',
-        name: 'Stub\'s Stallions',
-        points: '140.5',
+        name: 'Last Place',
+        points: '77',
     },
     {
         position: '13',
-        name: 'Thirteen Bricks',
-        points: '136.5',
+        name: 'New Old Guys',
+        points: '76.5',
     },
     {
         position: '14',
-        name: 'JL Construction',
-        points: '128',
+        name: 'Sneeds Insurance',
+        points: '72',
     },
+    {
+        position: '15',
+        name: 'SSBE',
+        points: '69.5',
+    },
+    
   ]
 
 
@@ -80,7 +86,7 @@ function MensLeague() {
   return (
     <div className="mb-12 overflow-hidden dark:text-white">
         <h2 className="uppercase dark:text-white text-black text-xl tracking-wide font-normal pb-2">
-            Week 7 Standings
+            Week 4 Standings
         </h2>
         <table className="min-w-full table-fixed text-left text-sm font-light">
             <thead className="border-b font-medium dark:border-neutral-500">
