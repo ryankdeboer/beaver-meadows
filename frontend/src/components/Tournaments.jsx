@@ -5,34 +5,16 @@ import { useLocation } from 'react-router-dom';
 // .slice(0,2)
 const tournaments = [
     {
-        name: 'Women’s Brunch Tournament',
-        date: 'Sunday - 6-23-24 - 11:00am',
-        description:
-          '$30 per person (brunch included)',
-    },
-    {
-        name: '4 Person Best Shot/2 cup - Beaver Fundraiser',
-        date: 'Saturday - 6-29-24 - 11:00am',
-        description:
-          '$80.00 per team',
-    },
-    {
-        name: 'July 4th Tournament',
-        date: 'Thursday - 7-4-24 - 10:00am',
-        description:
-          '$10.00 per person',
-    },
-    {
-        name: 'American Legion Tournament',
-        date: 'Saturday - 7-13-24 - 10:00am',
-        description:
-          '$10.00 per person',
-    },
-    {
         name: '4 Gal Best Shot',
         date: 'Thursday - 7-18-24 - 9:00am',
         description:
           '$30 per person, $20 cart',
+    },
+    {
+        name: '4 Person Best Shot/2 cup - Beaver Fundraiser',
+        date: 'Saturday - 7-27-24 - 10:00am',
+        description:
+          '$80.00 per team',
     },
     {
         name: '2 Couple Best Shot',
@@ -63,7 +45,13 @@ const tournaments = [
         date: 'Monday - 9-2-24 - 10:00am',
         description:
           '$10.00 per person',
-    }
+    },
+    {
+        name: 'Women’s Brunch Tournament',
+        date: 'Sunday - 9-15-24 - 11:00am',
+        description:
+          '$30 per person (brunch included)',
+    },
   ]
 
 
