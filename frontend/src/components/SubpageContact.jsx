@@ -9,10 +9,7 @@ function SubpageContact() {
                     <h4 className="mb-2 text-base font-medium leading-6 text-black dark:text-white">Club House</h4>
                     <div className='text-sm text-gray-700 dark:text-white'> 
                         <ul class="mb-5">
-                            <li>
-                            Closed until the 2024 season.<br/><br/>
-                            </li> 
-                            <li> </li>
+                            
                             <li>If you are looking to get ahold of someone from Beaver Meadows. Please message the <a href='https://www.facebook.com/profile.php?id=100057310845821'>Facebook page</a>.</li>
                             
                         </ul>
