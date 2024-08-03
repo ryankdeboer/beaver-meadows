@@ -6,87 +6,87 @@ const standings = [
     {
         position: '1',
         name: 'Teed Off',
-        points: '35',
+        points: '47',
     },
     {
         position: '2',
         name: 'Perky Putters',
-        points: '33.5',
+        points: '46',
     },
     {
         position: '3',
-        name: 'Sassy Swingers',
-        points: '31',
+        name: 'What did John do?',
+        points: '40.5',
     },
     {
         position: '4',
-        name: 'Divot & Goliath',
-        points: '30',
+        name: 'Garden Girls',
+        points: '40.5',
     },
     {
         position: '5',
-        name: 'What did John do?',
-        points: '29.5',
+        name: 'Divot & Goliath',
+        points: '38.5',
     },
     {
         position: '6',
-        name: 'Garden Girls',
-        points: '29.5',
+        name: 'Sassy Swingers',
+        points: '38',
     },
     {
         position: '7',
         name: 'Power Putt Girls',
-        points: '29',
+        points: '37.5',
     },
     {
         position: '8',
         name: 'Golf Goddesses',
-        points: '27',
+        points: '36',
     },
     {
         position: '9',
-        name: 'It is what it is & it ain\'t good',
-        points: '24.5',
+        name: 'The Newbies',
+        points: '34',
     },
     {
         position: '10',
-        name: 'Reckless Drivers',
-        points: '22.5',
+        name: 'Green Days',
+        points: '32.5',
     },
     {
         position: '11',
-        name: 'Just Swinging',
-        points: '22.5',
+        name: 'Dude Where\’s My Par',
+        points: '32',
     },
     {
         position: '12',
-        name: 'Life Savers',
-        points: '22',
+        name: 'Just Swinging',
+        points: '31.5',
     },
     {
         position: '13',
-        name: 'Dude Where\’s My Par',
-        points: '20.5',
+        name: 'It is what it is & it ain\'t good',
+        points: '31.5',
     },
     {
         position: '14',
-        name: 'Green Days',
-        points: '20',
+        name: 'Reckless Drivers',
+        points: '31',
     },
     {
         position: '15',
-        name: 'The Newbies',
-        points: '19.5',
+        name: 'Life Savers ',
+        points: '31',
     },
     {
         position: '16',
-        name: 'Just Fore Fun',
-        points: '18.5',
+        name: 'Know Clue',
+        points: '29',
     },
     {
         position: '17',
-        name: 'Know Clue ',
-        points: '16',
+        name: 'Just Fore Fun',
+        points: '28',
     },
   ]
 
@@ -95,7 +95,7 @@ function WomensLeague() {
   return (
     <div className="mb-12 overflow-hidden dark:text-white">
         <h2 className="uppercase dark:text-white text-black text-xl tracking-wide font-normal pb-2">
-            Week 5 Standings
+            Week 7 Standings
         </h2>
         <table className="min-w-full table-fixed text-left text-sm font-light">
             <thead className="border-b font-medium dark:border-neutral-500">

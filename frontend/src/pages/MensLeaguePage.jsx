@@ -218,7 +218,7 @@ function MensLeaguePage() {
                             <td className="whitespace-nowrap px-3 py-4"></td>
                             <td className="whitespace-nowrap px-3 py-4">8 v 16</td>
                           </tr>
-                          <tr className="border-b dark:border-neutral-500 bg-zinc-100 dark:bg-zinc-800">
+                          <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Week 6</td>
                             <td className="whitespace-nowrap px-3 py-4">3 v 4</td>
                             <td className="whitespace-nowrap px-3 py-4">10 v 12</td>
@@ -278,7 +278,7 @@ function MensLeaguePage() {
                             <td className="whitespace-nowrap px-3 py-4"></td>
                             <td className="whitespace-nowrap px-3 py-4">13 v 16</td>
                           </tr>
-                          <tr className="border-b dark:border-neutral-500">
+                          <tr className="border-b dark:border-neutral-500 bg-zinc-100 dark:bg-zinc-800">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Week 11</td>
                             <td className="whitespace-nowrap px-3 py-4">5 v 7</td>
                             <td className="whitespace-nowrap px-3 py-4">3 v 9</td>

@@ -6,77 +6,77 @@ const standings = [
     {
         position: '1',
         name: 'Wyffels',
-        points: '112.5',
+        points: '231.5',
     },
     {
         position: '2',
-        name: 'Stub\'s Stallions',
-        points: '108.5',
+        name: 'P-Burg Vet',
+        points: '214',
     },
     {
         position: '3',
-        name: 'Catfish',
-        points: '99',
+        name: 'JL Construction',
+        points: '212.5',
     },
     {
         position: '4',
-        name: 'Falcons',
-        points: '98',
+        name: 'River Rats',
+        points: '212',
     },
     {
         position: '5',
-        name: 'JL Construction',
-        points: '95',
+        name: 'Stub\'s Stallions',
+        points: '210',
     },
     {
         position: '6',
-        name: 'Busch League',
-        points: '93',
+        name: 'Beer Muscles',
+        points: '209',
     },
     {
         position: '7',
-        name: 'Beer Muscles',
-        points: '92.5',
+        name: 'Maddogs',
+        points: '208',
     },
     {
         position: '8',
-        name: 'Maddogs',
-        points: '88.5',
+        name: 'Last Place',
+        points: '205.5',
     },
     {
         position: '9',
-        name: 'River Rats',
-        points: '87.5',
+        name: 'Catfish',
+        points: '204.5',
     },
     {
         position: '10',
-        name: 'P-Burg Vet',
-        points: '85',
+        name: 'Busch League',
+        points: '192.5',
     },
     {
         position: '11',
         name: 'Putt Pirates',
-        points: '83',
+        points: '189.5',
     },
     {
         position: '12',
-        name: 'Last Place',
-        points: '77',
+        name: 'Sneeds Insurance',
+        points: '180.5',
     },
     {
         position: '13',
-        name: 'New Old Guys',
-        points: '76.5',
+        name: 'Falcons',
+        points: '181.5',
     },
     {
         position: '14',
-        name: 'Sneeds Insurance',
-        points: '72',
+        name: 'SSBE',
+        points: '175.5',
     },
     {
         position: '15',
-        name: 'SSBE',
-        points: '69.5',
+        name: 'New Old Guys',
+        points: '163',
     },
     
   ]
@@ -86,7 +86,7 @@ function MensLeague() {
   return (
     <div className="mb-12 overflow-hidden dark:text-white">
         <h2 className="uppercase dark:text-white text-black text-xl tracking-wide font-normal pb-2">
-            Week 4 Standings
+            Week 9 Standings
         </h2>
         <table className="min-w-full table-fixed text-left text-sm font-light">
             <thead className="border-b font-medium dark:border-neutral-500">

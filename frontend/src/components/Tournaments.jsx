@@ -5,24 +5,6 @@ import { useLocation } from 'react-router-dom';
 // .slice(0,2)
 const tournaments = [
     {
-        name: '4 Gal Best Shot',
-        date: 'Thursday - 7-18-24 - 9:00am',
-        description:
-          '$30 per person, $20 cart',
-    },
-    {
-        name: '4 Person Best Shot/2 cup - Beaver Fundraiser',
-        date: 'Saturday - 7-27-24 - 10:00am',
-        description:
-          '$80.00 per team',
-    },
-    {
-        name: '2 Couple Best Shot',
-        date: 'Saturday - 7-27-24 - 10:00am',
-        description:
-          '$60.00 per team',
-    },
-    {
         name: 'Calcutta - Men’s League Members Only',
         date: 'Saturday - 8-10-24',
         description:
