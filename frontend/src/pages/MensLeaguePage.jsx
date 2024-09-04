@@ -18,7 +18,7 @@ function MensLeaguePage() {
             <div className="flex flex-col">
               <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
                 <div className="inline-block min-w-full py-2 sm:px-6 lg:px-8">
-                  <MensLeague />
+                  {/* <MensLeague /> */}
                   <h3 className="text-xl mb-2 pb-2 dark:text-white border-b border-zinc-200 dark:border-zinc-800">Previous Years Men's League Winners</h3>
                   <div className="mb-12 flex flex-col">
                     <div className="overflow-x-auto sm:-mx-6 lg:-mx-8 dark:text-white">
@@ -131,7 +131,7 @@ function MensLeaguePage() {
           
         </section>
       </div>
-      <div className="md:px-6 py-1 lg:max-w-screen-2xl relative mx-auto ">
+      {/* <div className="md:px-6 py-1 lg:max-w-screen-2xl relative mx-auto ">
         <section className="m-4 col-span-2 text-center sm:text-left ">
           <h1 className="uppercase text-white text-2xl tracking-wide font-normal pb-2">
             Schedule
@@ -278,7 +278,7 @@ function MensLeaguePage() {
                             <td className="whitespace-nowrap px-3 py-4"></td>
                             <td className="whitespace-nowrap px-3 py-4">13 v 16</td>
                           </tr>
-                          <tr className="border-b dark:border-neutral-500 bg-zinc-100 dark:bg-zinc-800">
+                          <tr className="border-b dark:border-neutral-500">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Week 11</td>
                             <td className="whitespace-nowrap px-3 py-4">5 v 7</td>
                             <td className="whitespace-nowrap px-3 py-4">3 v 9</td>
@@ -326,7 +326,7 @@ function MensLeaguePage() {
                             <td className="whitespace-nowrap px-3 py-4"></td>
                             <td className="whitespace-nowrap px-3 py-4">5 v 16</td>
                           </tr>
-                          <tr className="border-b dark:border-neutral-500">
+                          <tr className="border-b dark:border-neutral-500 bg-zinc-100 dark:bg-zinc-800">
                             <td className="whitespace-nowrap px-3 py-4 w-10 font-medium">Week 15</td>
                             <td className="whitespace-nowrap px-3 py-4">1 v 2</td>
                             <td className="whitespace-nowrap px-3 py-4">9 v 10</td>
@@ -347,7 +347,7 @@ function MensLeaguePage() {
           </div>
         </section>
         
-      </div>
+      </div> */}
     </div>
   );
 }

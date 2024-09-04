@@ -18,7 +18,7 @@ function WomensLeaguePage() {
             <div className="flex flex-col">
               <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
                 <div className="inline-block min-w-full py-2 sm:px-6 lg:px-8">
-                  <WomensLeague />
+                  {/* <WomensLeague /> */}
                   <h3 className="text-xl mb-2 pb-2 dark:text-white border-b border-zinc-200 dark:border-zinc-800">Previous Years Women's League Winners</h3>
                   <div className="mb-12 flex flex-col">
                     <div className="overflow-x-auto sm:-mx-6 lg:-mx-8 dark:text-white">
@@ -122,7 +122,7 @@ function WomensLeaguePage() {
           
         </section>
       </div>
-      <div className="md:px-6 py-1 lg:max-w-screen-2xl relative mx-auto ">
+      {/* <div className="md:px-6 py-1 lg:max-w-screen-2xl relative mx-auto ">
         <section className="m-4 col-span-2 text-center sm:text-left ">
           <h1 className="uppercase text-white text-2xl tracking-wide font-normal pb-2">
             Schedule
@@ -488,7 +488,7 @@ function WomensLeaguePage() {
                             <td className="whitespace-nowrap px-3 py-4"></td>
                             <td className="whitespace-nowrap px-3 py-4">vs</td>
                             <td className="whitespace-nowrap px-3 py-4"></td>
-                          </tr> */}
+                          </tr> 
                         </tbody>
                       </table>
                     </div>
@@ -939,7 +939,7 @@ function WomensLeaguePage() {
             </div>
           </div>
         </section>
-      </div>
+      </div> */}
     </div>
   );
 }

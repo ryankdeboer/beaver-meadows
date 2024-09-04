@@ -60,15 +60,15 @@ export default function HomePage() {
 
                         {/* <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>2024 League Standings</h3> */}
                         
-                        <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Men's League</h3>
+                        {/* <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Men's League</h3>
                             <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
                                 <MensLeague />
                             </div>
                         <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Women's League</h3>
                             <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
                                 <WomensLeague />
-                            </div>
-                        {/* <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>2023 League Results</h3>
+                            </div> */}
+                        {/* <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>2024 League Results</h3>
                         <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
                             <h4 className="text-white mb-2">Men's League Winners - Catfish</h4>
                             <h4 className="text-white">Womens's League Winners - What Did John Do?</h4>
@@ -82,10 +82,10 @@ export default function HomePage() {
                     <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
                         <Tournaments />
                     </div>
-                    <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Upcoming Events</h3>
+                    {/* <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Upcoming Events</h3>
                     <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
                         <Events />
-                    </div>
+                    </div> */}
                     
                 </div>
             </section>
