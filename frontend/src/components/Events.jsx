@@ -1,12 +1,18 @@
 import React from 'react'
 
 const events = [ 
-  // {
-  //       name: '5th Annual Golf Cart Poker Run',
-  //       date: '8-17-24',
-  //       description:
-  //         'Registration at 11:30am. $20 per person',
-  //   },
+  {
+    name: 'Course Cleanup',
+    date: 'Saturday - 4-5-25 - 10:00am',
+    description:
+      '',
+  },
+  {
+    name: '4 Person Best Shot/2 cup - Beaver Fundraiser',
+    date: 'Saturday - 7-26-25 - 10:00am',
+    description:
+      '$80.00 per team',
+  },  
   ]
 
 

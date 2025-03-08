@@ -85,7 +85,7 @@ function MembershipsPage() {
               <li>* Please fill out your complete address if you wish to receive future mailings.</li>
             </ul>
               
-            <div className="block text-center mt-5 dark:text-white"><a href="./files/2024-Membership-Form.pdf" target="_blank">Download Membership Form</a></div>
+            <div className="block text-center mt-5 dark:text-white"><a href="./files/2025-Membership-Form.pdf" target="_blank">Download Membership Form</a></div>
 
 
 

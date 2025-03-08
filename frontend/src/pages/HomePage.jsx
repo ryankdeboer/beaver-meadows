@@ -38,8 +38,9 @@ export default function HomePage() {
                                             Closed until the 2024 season.<br/><br/>
                                             </li>  */}
                                             <li> </li>
+                                            {/* <li>If you are looking to get ahold of someone from Beaver Meadows. <br/>Please message the <a href='https://www.facebook.com/profile.php?id=100057310845821'>Facebook page</a>.</li> */}
+                                            <li>Club house is closed for the 2024 season. </li>
                                             <li>If you are looking to get ahold of someone from Beaver Meadows. <br/>Please message the <a href='https://www.facebook.com/profile.php?id=100057310845821'>Facebook page</a>.</li>
-                                            
                                         </ul>
                                     </div>
                                 </div>
@@ -81,11 +82,12 @@ export default function HomePage() {
                     <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Tournaments</h3>
                     <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
                         <Tournaments />
+                        
                     </div>
-                    {/* <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Upcoming Events</h3>
+                    <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Upcoming Events</h3>
                     <div className="p-8 mb-8 bg-white dark:bg-zinc-900 rounded-sm drop-shadow">
                         <Events />
-                    </div> */}
+                    </div>
                     
                 </div>
             </section>

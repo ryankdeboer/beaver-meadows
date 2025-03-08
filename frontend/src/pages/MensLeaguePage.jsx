@@ -34,6 +34,10 @@ function MensLeaguePage() {
                             </thead>
                             <tbody>
                             <tr className="border-b dark:border-neutral-500">
+                                <td className="whitespace-nowrap px-6 py-4 font-medium">2024</td>
+                                <td className="whitespace-nowrap px-6 py-4">River Rats</td>
+                              </tr>
+                              <tr className="border-b dark:border-neutral-500">
                                 <td className="whitespace-nowrap px-6 py-4 font-medium">2023</td>
                                 <td className="whitespace-nowrap px-6 py-4">Catfish</td>
                               </tr>
