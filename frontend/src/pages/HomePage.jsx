@@ -24,8 +24,26 @@ export default function HomePage() {
                     </div>
                 </div>
             </main>
+
+            
+
             <section className="md:px-6 py-1 -mt-20 sm:-mt-80 text-center lg:grid grid-cols-3 grid-rows-1 md:text-left lg:max-w-screen-2xl mx-auto">
                 <div className="relative m-4 col-span-2 row-span-1">
+                    {/* <div className="">
+
+                        <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Announcments</h3>
+                            <div className="p-8 mb-8 sm:grid bg-white dark:bg-zinc-900 rounded-sm drop-shadow ">
+                                <div className="mb-4 pb-4 sm:mb-0 sm:pb-0 border-b border-zinc-200 dark:border-zinc-800 sm:border-none">
+                                    <h4 className="mb-2 text-base font-medium leading-6 text-black dark:text-white">Course is closed Friday 6/20</h4>
+                                    <div className='text-sm text-gray-700 dark:text-white'> 
+                                        <ul class="mb-2">
+                                            <li>3 Course Chaos is still on. Teams will need to get their round in on Saturday/Sunday weather permitting</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                    </div> */}
+
                     <div className="">
 
                         <h3 className='uppercase text-white text-2xl tracking-wide font-normal pb-2'>Contact</h3>
@@ -34,12 +52,7 @@ export default function HomePage() {
                                     <h4 className="mb-2 text-base font-medium leading-6 text-black dark:text-white">Club House</h4>
                                     <div className='text-sm text-gray-700 dark:text-white'> 
                                         <ul class="mb-2">
-                                            {/* <li>
-                                            Closed until the 2024 season.<br/><br/>
-                                            </li>  */}
-                                            <li> </li>
-                                            {/* <li>If you are looking to get ahold of someone from Beaver Meadows. <br/>Please message the <a href='https://www.facebook.com/profile.php?id=100057310845821'>Facebook page</a>.</li> */}
-                                            <li>Club house is closed for the 2024 season. </li>
+                    
                                             <li>If you are looking to get ahold of someone from Beaver Meadows. <br/>Please message the <a href='https://www.facebook.com/profile.php?id=100057310845821'>Facebook page</a>.</li>
                                         </ul>
                                     </div>

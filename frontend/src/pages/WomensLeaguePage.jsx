@@ -33,6 +33,10 @@ function WomensLeaguePage() {
                               </tr>
                             </thead>
                             <tbody>
+                              <tr className="border-b dark:border-neutral-500">
+                                <td className="whitespace-nowrap px-6 py-4 font-medium">2025</td>
+                                <td className="whitespace-nowrap px-6 py-4">Golf Goddesses</td>
+                              </tr>
                             <tr className="border-b dark:border-neutral-500">
                                 <td className="whitespace-nowrap px-6 py-4 font-medium">2024</td>
                                 <td className="whitespace-nowrap px-6 py-4">Golf Goddesses</td>
@@ -57,7 +61,7 @@ function WomensLeaguePage() {
             <h3 className='uppercase text-center sm:text-left text-gray-900 dark:text-white lg:text-white text-2xl tracking-wide font-normal pb-2'>Teams</h3>
             <div className="p-8 mb-4 text-center sm:text-left bg-white dark:bg-zinc-900 rounded-sm drop-shadow dark:text-white">
             <div className="mb-12 overflow-hidden">
-              <h3 className="mb-2">2024 Team Names</h3>
+              <h3 className="mb-2">2025 Team Names</h3>
               <hr className="mb-2"/>
               <table className="min-w-full table-fixed text-sm font-light">
                 <tbody>

@@ -3,100 +3,100 @@ import { useLocation } from 'react-router-dom';
 
 const tournaments = [
     {
-        name: 'Sneaker/Hooker Open - 3 person',
-        date: 'Saturday - 4-26-25 - 10:00am',
+        name: 'Butler County Open - 2 Person Best Shot - 9 Holes / Course',
+        date: '4/1/26 - 5-31-26',
+        description:
+          '$50 / Person - $15 Cart Rental @ Each Course',
+    },
+    {
+        name: 'Sneaker/Hooker Open - Shotgun Start - 3 person',
+        date: 'Saturday - 4-25-26 - 10:00am',
         description:
           '$20 per person',
     },
     {
-        name: 'Ryder Cup - 2 person',
-        date: 'Saturday - 5-10-25 - 9:00am',
+        name: 'Ryder Cup - 27 Holes - 2 person',
+        date: 'Saturday - 5-9-26 - 9:00am',
         description:
           '$50.00 per team - 100% payout',
     },
     {
+        name: 'Ladies Mid Iowa Over 50 - 4 Person Best Shot',
+        date: 'Monday - 5-11-26 - 8:30am',
+        description:
+          'Mid Iowa Members Only $25 per person',
+    },
+    {
         name: 'Memorial Day Tournament',
-        date: 'Monday - 5-26-25 - 10:00am',
+        date: 'Monday - 5-25-26 - 10:00am',
         description:
           '$10.00 per person',
     },
     {
         name: 'Men’s Mid Iowa Over 50 - 2 Person Best Shot',
-        date: 'Monday - 6-2-25 - 8:00am & 1:00pm',
+        date: 'Monday - 6-1-26 - 8:00am & 1:00pm',
         description:
-          'Mid Iowa Members Only $25 per person',
+          'Mid Iowa Members Only $25 per person. Any Beaver Meadows member over 50 can enter',
     },
     {
-        name: '3 Course 4 Person Best Shot',
-        date: 'Saturday - 6-7-25 - 8:30am',
+        name: '3 Course - 4 Person Best Shot',
+        date: 'Saturday - 6-6-26 - 8:00am',
         description:
           '$250 per team (lunch included)',
     },
     {
         name: '2 Couple Best Shot',
-        date: 'Sunday - 6-8-25 - 10:00am',
+        date: 'Sunday - 6-14-26 - 10:00am',
         description:
           '$60.00 per team',
     },
     {
-        name: '3 Course Chaos',
-        date: '6-20-25 / 6-22-25',
-        description:
-          'Two Person Best Shot $60 Team or $30 Single Play 9 holes at CARD Clarksville, 9 holes at Round Grove Greene and 9 holes at Beaver Meadows Parkersburg. Details at Club House',
-    },
-    {
         name: 'July 4th Tournament',
-        date: 'Friday - 7-4-25 - 10:00am',
+        date: 'Saturday - 7-4-26 - 10:00am',
         description:
           '$10.00 per person',
     },
     {
         name: 'American Legion Tournament',
-        date: 'Saturday - 7-12-25 - 10:00am',
+        date: 'Saturday - 7-11-26 - 10:00am',
         description:
           '',
     },
     {
         name: 'Women’s Brunch Tournament',
-        date: 'Sunday - 7-20-25 - 11:00am',
+        date: 'Sunday - 7-19-26 - 11:00am',
         description:
           '',
     },
     {
-        name: '4 Gal Best Shot',
-        date: 'Thursday - 7-24-25 - 9:00am',
-        description:
-          '$30 per person, $20 cart',
-    },
-    {
         name: '4 Person Best Shot/2 cup - Beaver Fundraiser',
-        date: 'Saturday - 7-26-25 - 10:00am',
+        date: 'Saturday - 7-25-26 - 10:00am',
         description:
           '$80.00 per team',
     },
     {
+        name: 'Parent - Child Best Shot Tournament',
+        date: 'Sunday - 8-2-26 - 10:00am',
+        description:
+          '$10 / Person - 9 Holes. All ages can enter - Only kids under 18 can win prizes',
+    },
+    {
         name: 'Calcutta - Men’s League Members Only',
-        date: 'Saturday - 7-29-25',
+        date: 'Saturday - 8-8-26',
         description:
           '',
     },
     {
         name: 'City Tournament',
-        date: 'Sunday - 8-17-25 - 1:00m',
+        date: 'Sunday - 8-16-26 - 1:00pm',
         description:
           '$10 per division',
     },
     {
         name: 'Labor Day Tournament - 8” Cup',
-        date: 'Monday - 9-1-25 - 10:00am',
+        date: 'Monday - 9-7-26 - 10:00am',
         description:
           '$10.00 per person',
-    },
-    {
-        name: 'Ladies Mid Iowa Over 50 - 4 Person Best Shot',
-        date: 'Thursday - 9-22-25 - 8:30am',
-        description:
-          'Mid Iowa Members Only $25 per person',
     },
   ]
 

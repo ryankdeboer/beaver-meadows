@@ -1,18 +1,18 @@
 import React from 'react'
 
 const events = [ 
-  {
-    name: 'Course Cleanup',
-    date: 'Saturday - 4-5-25 - 10:00am',
-    description:
-      '',
-  },
-  {
-    name: '4 Person Best Shot/2 cup - Beaver Fundraiser',
-    date: 'Saturday - 7-26-25 - 10:00am',
-    description:
-      '$80.00 per team',
-  },  
+  // {
+  //   name: 'Course Cleanup',
+  //   date: 'Saturday - 4-5-26 - 10:00am',
+  //   description:
+  //     '',
+  // },
+  // {
+  //   name: 'Beaver Meadows Steak Fry',
+  //   date: 'Saturday - 9-13-26 - 5-8pm',
+  //   description:
+  //     '',
+  // },  
   ]
 
 

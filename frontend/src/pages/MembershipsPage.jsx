@@ -21,8 +21,8 @@ function MembershipsPage() {
                       <thead className="border-b font-medium dark:border-neutral-500">
                         <tr>
                           <th scope="col" className="px-3 py-4">Memberships</th>
-                          <th scope="col" className="px-3 py-4">Before 4/30/22</th>
-                          <th scope="col" className="px-3 py-4">After 5/1/23</th>
+                          <th scope="col" className="px-3 py-4">Before 4/30/26</th>
+                          <th scope="col" className="px-3 py-4">After 5/1/26</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -75,6 +75,7 @@ function MembershipsPage() {
               <li>* Couples must be living together and share same address.</li>
               <li>* Anyone over the age of 20 cannot be included on Family membership.</li>
               <li>* Membership is required to participate in the Men's League.</li>
+              <li>* Women’s league membership is excluded from early-bird incentives as it is already priced at a special league-only rate.</li>
               <li>* All College Applicants must provide a student ID along with proof of age. College applicants must be 23 years of age or younger and enrolled on a full-time basis at a college or university.</li>
               <li>* Trail fees apply if you store your cart off of the course premises.</li>
               <li>* Full Membership at Legend Trail will result in half price membership for those having a Parkersburg address.</li>
@@ -85,7 +86,7 @@ function MembershipsPage() {
               <li>* Please fill out your complete address if you wish to receive future mailings.</li>
             </ul>
               
-            <div className="block text-center mt-5 dark:text-white"><a href="./files/2025-Membership-Form.pdf" target="_blank">Download Membership Form</a></div>
+            <div className="block text-center mt-5 dark:text-white"><a href="./files/2026-Membership-Form.pdf" target="_blank">Download Membership Form</a></div>
 
 
 
